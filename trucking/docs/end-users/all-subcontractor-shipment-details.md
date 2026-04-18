@@ -1,6 +1,6 @@
 # All Subcontractor Shipment Details
 
-![All Subcontractor Shipment Details screenshot](all-subcontractor-shipment-details.png)
+![All Subcontractor Shipment Details screenshot](../assets/screenshots/all-subcontractor-shipment-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:All_Subcontractor_Shipment_Details`
 

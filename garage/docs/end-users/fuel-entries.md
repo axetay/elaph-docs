@@ -1,6 +1,6 @@
 # Fuel Entries
 
-![Fuel Entries screenshot](fuel-entries.png)
+![Fuel Entries screenshot](../assets/screenshots/fuel-entries.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Fuel_Entries`
 

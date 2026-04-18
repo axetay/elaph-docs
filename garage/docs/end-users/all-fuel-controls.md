@@ -1,6 +1,6 @@
 # All Fuel Controls
 
-![All Fuel Controls screenshot](all-fuel-controls.png)
+![All Fuel Controls screenshot](../assets/screenshots/all-fuel-controls.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Fuel_Controls`
 

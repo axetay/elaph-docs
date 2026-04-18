@@ -1,6 +1,6 @@
 # Repair Maintenance This Month
 
-![Repair Maintenance This Month screenshot](repair-maintenance-this-month.png)
+![Repair Maintenance This Month screenshot](../assets/screenshots/repair-maintenance-this-month.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Repair_Maintenance_This_Month`
 

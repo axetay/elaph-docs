@@ -1,6 +1,6 @@
 # Driver Expenses & Wages Form
 
-![Driver Expenses & Wages Form screenshot](driver-expenses-wages-form.png)
+![Driver Expenses & Wages Form screenshot](../assets/screenshots/driver-expenses-wages-form.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Driver_Expenses_Wages_Form`
 

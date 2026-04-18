@@ -1,6 +1,6 @@
 # All Maintenance Orders
 
-![All Maintenance Orders screenshot](all-maintenance-orders.png)
+![All Maintenance Orders screenshot](../assets/screenshots/all-maintenance-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Maintenance_Orders`
 

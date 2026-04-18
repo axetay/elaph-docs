@@ -1,6 +1,6 @@
 # Subcontractor Job Orders
 
-![Subcontractor Job Orders screenshot](subcontractor-job-orders.png)
+![Subcontractor Job Orders screenshot](../assets/screenshots/subcontractor-job-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Subcontractor_Job_Orders`
 

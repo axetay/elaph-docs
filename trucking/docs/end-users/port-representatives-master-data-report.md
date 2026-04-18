@@ -1,6 +1,6 @@
 # Port Representatives Master Data Report
 
-![Port Representatives Master Data Report screenshot](port-representatives-master-data-report.png)
+![Port Representatives Master Data Report screenshot](../assets/screenshots/port-representatives-master-data-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Port_Representatives_Master_Data_Report`
 

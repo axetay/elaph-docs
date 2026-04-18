@@ -1,6 +1,6 @@
 # All Spare Parts
 
-![All Spare Parts screenshot](all-spare-parts.png)
+![All Spare Parts screenshot](../assets/screenshots/all-spare-parts.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Spare_Parts`
 

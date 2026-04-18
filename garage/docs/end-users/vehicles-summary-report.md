@@ -1,6 +1,6 @@
 # Vehicles Summary Report
 
-![Vehicles Summary Report screenshot](vehicles-summary-report.png)
+![Vehicles Summary Report screenshot](../assets/screenshots/vehicles-summary-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Vehicles_Summary_Report`
 

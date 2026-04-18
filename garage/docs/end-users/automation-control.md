@@ -1,6 +1,6 @@
 # Automation Control
 
-![Automation Control screenshot](automation-control.png)
+![Automation Control screenshot](../assets/screenshots/automation-control.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Automation_Control`
 

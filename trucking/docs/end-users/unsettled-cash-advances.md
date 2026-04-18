@@ -1,6 +1,6 @@
 # Unsettled Cash Advances
 
-![Unsettled Cash Advances screenshot](unsettled-cash-advances.png)
+![Unsettled Cash Advances screenshot](../assets/screenshots/unsettled-cash-advances.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Unsettled_Cash_Advances`
 

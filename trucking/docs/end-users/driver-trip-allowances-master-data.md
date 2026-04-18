@@ -1,6 +1,6 @@
 # Driver Trip Allowances Master Data
 
-![Driver Trip Allowances Master Data screenshot](driver-trip-allowances-master-data.png)
+![Driver Trip Allowances Master Data screenshot](../assets/screenshots/driver-trip-allowances-master-data.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Driver_Trip_Allowances_Master_Data`
 

@@ -1,6 +1,6 @@
 # Clients Master Data Report
 
-![Clients Master Data Report screenshot](clients-master-data-report.png)
+![Clients Master Data Report screenshot](../assets/screenshots/clients-master-data-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Clients_Master_Data_Report`
 

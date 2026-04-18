@@ -1,6 +1,6 @@
 # Cash Advance Requests & Settlements
 
-![Cash Advance Requests & Settlements screenshot](cash-advance-requests-settlements.png)
+![Cash Advance Requests & Settlements screenshot](../assets/screenshots/cash-advance-requests-settlements.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Cash_Advance_Requests_Settlements`
 

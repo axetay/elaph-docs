@@ -1,6 +1,6 @@
 # M1 Reefer Trailer Report
 
-![M1 Reefer Trailer Report screenshot](m1-reefer-trailer-report.png)
+![M1 Reefer Trailer Report screenshot](../assets/screenshots/m1-reefer-trailer-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:M1_Reefer_Trailer_Report`
 

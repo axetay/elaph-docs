@@ -1,6 +1,6 @@
 # Purchase Orders
 
-![Purchase Orders screenshot](purchase-orders.png)
+![Purchase Orders screenshot](../assets/screenshots/purchase-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Purchase_Orders`
 

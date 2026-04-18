@@ -1,6 +1,6 @@
 # All Domestic Shipment Details
 
-![All Domestic Shipment Details screenshot](all-domestic-shipment-details.png)
+![All Domestic Shipment Details screenshot](../assets/screenshots/all-domestic-shipment-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:All_Domestic_Shipment_Details`
 

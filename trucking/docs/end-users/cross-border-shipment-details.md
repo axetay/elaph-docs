@@ -1,6 +1,6 @@
 # Cross Border Shipment Details
 
-![Cross Border Shipment Details screenshot](cross-border-shipment-details.png)
+![Cross Border Shipment Details screenshot](../assets/screenshots/cross-border-shipment-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Cross_Border_Shipment_Details`
 

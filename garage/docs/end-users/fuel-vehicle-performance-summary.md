@@ -1,6 +1,6 @@
 # Fuel – Vehicle Performance Summary
 
-![Fuel – Vehicle Performance Summary screenshot](fuel-vehicle-performance-summary.png)
+![Fuel – Vehicle Performance Summary screenshot](../assets/screenshots/fuel-vehicle-performance-summary.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Fuel_Vehicle_Performance_Summary1`
 

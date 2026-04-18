@@ -1,6 +1,6 @@
 # M3 Boxed Trailer Report
 
-![M3 Boxed Trailer Report screenshot](m3-boxed-trailer-report.png)
+![M3 Boxed Trailer Report screenshot](../assets/screenshots/m3-boxed-trailer-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:M3_Boxed_Trailer_Report`
 

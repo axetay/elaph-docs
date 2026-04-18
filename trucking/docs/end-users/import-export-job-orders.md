@@ -1,6 +1,6 @@
 # Import / Export Job Orders
 
-![Import / Export Job Orders screenshot](import-export-job-orders.png)
+![Import / Export Job Orders screenshot](../assets/screenshots/import-export-job-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Import_Export_Job_Orders1`
 

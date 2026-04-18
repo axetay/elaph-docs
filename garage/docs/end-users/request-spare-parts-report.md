@@ -1,6 +1,6 @@
 # Request Spare Parts Report
 
-![Request Spare Parts Report screenshot](request-spare-parts-report.png)
+![Request Spare Parts Report screenshot](../assets/screenshots/request-spare-parts-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Request_Spare_Parts_Report`
 

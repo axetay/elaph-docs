@@ -1,6 +1,6 @@
 # M2 Truck Report
 
-![M2 Truck Report screenshot](m2-truck-report.png)
+![M2 Truck Report screenshot](../assets/screenshots/m2-truck-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:M2_Truck_Report`
 

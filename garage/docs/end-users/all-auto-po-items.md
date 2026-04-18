@@ -1,6 +1,6 @@
 # All Auto PO Items
 
-![All Auto PO Items screenshot](all-auto-po-items.png)
+![All Auto PO Items screenshot](../assets/screenshots/all-auto-po-items.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Auto_PO_Items`
 

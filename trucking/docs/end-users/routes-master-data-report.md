@@ -1,6 +1,6 @@
 # Routes Master Data Report
 
-![Routes Master Data Report screenshot](routes-master-data-report.png)
+![Routes Master Data Report screenshot](../assets/screenshots/routes-master-data-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Routes_Master_Data_Report`
 

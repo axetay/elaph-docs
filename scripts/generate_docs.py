@@ -20,13 +20,13 @@ def slugify(text: str) -> str:
     return text
 
 
-def relative_screenshot_path(screenshot_abs: str, module: str) -> str:
-    """Convert absolute screenshot path to relative path from docs/ dir."""
+def relative_screenshot_path(screenshot_abs: str) -> str:
+    """Return path to screenshot relative to any docs sub-directory (e.g. end-users/)."""
     path = Path(screenshot_abs)
-    try:
-        return "../" + str(path.relative_to(f"{module}/docs"))
-    except ValueError:
-        return path.name
+    # screenshots live at <module>/docs/assets/screenshots/<file>.png
+    # markdown files live at <module>/docs/<section>/<file>.md
+    # so relative path is always ../assets/screenshots/<file>.png
+    return f"../assets/screenshots/{path.name}"
 
 
 def is_empty_page(page: dict) -> bool:
@@ -42,7 +42,7 @@ def generate_page_doc(page: dict, module: str, section: str) -> str:
     lines = [f"# {page['name']}\n"]
 
     if page.get("screenshot"):
-        rel = relative_screenshot_path(page["screenshot"], module)
+        rel = relative_screenshot_path(page["screenshot"])
         lines.append(f"![{page['name']} screenshot]({rel})\n")
 
     lines.append(f"**URL:** `{page['url']}`\n")

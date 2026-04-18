@@ -1,6 +1,6 @@
 # UGO Trucking Dashboard
 
-![UGO Trucking Dashboard screenshot](ugo-trucking-dashboard.png)
+![UGO Trucking Dashboard screenshot](../assets/screenshots/ugo-trucking-dashboard.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Page:UGO_Trucking_Dashboard`
 

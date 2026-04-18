@@ -1,6 +1,6 @@
 # All Locations Master Data
 
-![All Locations Master Data screenshot](all-locations-master-data.png)
+![All Locations Master Data screenshot](../assets/screenshots/all-locations-master-data.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:All_Locations_Master_Data`
 

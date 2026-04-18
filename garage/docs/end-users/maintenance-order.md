@@ -1,6 +1,6 @@
 # Maintenance Order
 
-![Maintenance Order screenshot](maintenance-order.png)
+![Maintenance Order screenshot](../assets/screenshots/maintenance-order.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Maintenance_Order`
 

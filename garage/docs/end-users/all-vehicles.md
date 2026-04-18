@@ -1,6 +1,6 @@
 # All Vehicles
 
-![All Vehicles screenshot](all-vehicles.png)
+![All Vehicles screenshot](../assets/screenshots/all-vehicles.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Vehicles`
 

@@ -1,6 +1,6 @@
 # Fuel Control
 
-![Fuel Control screenshot](fuel-control.png)
+![Fuel Control screenshot](../assets/screenshots/fuel-control.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Fuel_Control`
 

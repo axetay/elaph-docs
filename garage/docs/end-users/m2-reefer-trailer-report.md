@@ -1,6 +1,6 @@
 # M2 Reefer Trailer Report
 
-![M2 Reefer Trailer Report screenshot](m2-reefer-trailer-report.png)
+![M2 Reefer Trailer Report screenshot](../assets/screenshots/m2-reefer-trailer-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:M2_Reefer_Trailer_Report`
 

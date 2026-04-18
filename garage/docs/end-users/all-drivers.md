@@ -1,6 +1,6 @@
 # All Drivers
 
-![All Drivers screenshot](all-drivers.png)
+![All Drivers screenshot](../assets/screenshots/all-drivers.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Drivers`
 

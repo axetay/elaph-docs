@@ -1,6 +1,6 @@
 # Auto PO Items
 
-![Auto PO Items screenshot](auto-po-items.png)
+![Auto PO Items screenshot](../assets/screenshots/auto-po-items.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Auto_PO_Items`
 

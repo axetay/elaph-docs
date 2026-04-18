@@ -1,6 +1,6 @@
 # Driver Unpaid Summary
 
-![Driver Unpaid Summary screenshot](driver-unpaid-summary.png)
+![Driver Unpaid Summary screenshot](../assets/screenshots/driver-unpaid-summary.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Driver_Unpaid_Summary`
 

@@ -1,6 +1,6 @@
 # Open Cash Advances
 
-![Open Cash Advances screenshot](open-cash-advances.png)
+![Open Cash Advances screenshot](../assets/screenshots/open-cash-advances.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Open_Cash_Advances`
 

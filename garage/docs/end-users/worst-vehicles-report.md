@@ -1,6 +1,6 @@
 # Worst Vehicles Report
 
-![Worst Vehicles Report screenshot](worst-vehicles-report.png)
+![Worst Vehicles Report screenshot](../assets/screenshots/worst-vehicles-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Worst_Vehicles_Report`
 

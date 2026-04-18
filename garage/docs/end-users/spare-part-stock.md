@@ -1,6 +1,6 @@
 # Spare Part Stock
 
-![Spare Part Stock screenshot](spare-part-stock.png)
+![Spare Part Stock screenshot](../assets/screenshots/spare-part-stock.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Spare_Part_Stock`
 

@@ -1,6 +1,6 @@
 # Driver KPI Evaluation
 
-![Driver KPI Evaluation screenshot](driver-kpi-evaluation.png)
+![Driver KPI Evaluation screenshot](../assets/screenshots/driver-kpi-evaluation.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Driver_KPI_Evaluation`
 

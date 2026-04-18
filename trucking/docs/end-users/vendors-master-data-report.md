@@ -1,6 +1,6 @@
 # Vendors Master Data Report
 
-![Vendors Master Data Report screenshot](vendors-master-data-report.png)
+![Vendors Master Data Report screenshot](../assets/screenshots/vendors-master-data-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Vendors_Master_Data_Report`
 

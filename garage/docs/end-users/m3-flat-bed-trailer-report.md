@@ -1,6 +1,6 @@
 # M3 Flat Bed Trailer Report
 
-![M3 Flat Bed Trailer Report screenshot](m3-flat-bed-trailer-report.png)
+![M3 Flat Bed Trailer Report screenshot](../assets/screenshots/m3-flat-bed-trailer-report.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:M3_Flat_Bed_Trailer_Report`
 

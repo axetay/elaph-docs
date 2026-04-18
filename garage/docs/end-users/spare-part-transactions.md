@@ -1,6 +1,6 @@
 # Spare Part Transactions
 
-![Spare Part Transactions screenshot](spare-part-transactions.png)
+![Spare Part Transactions screenshot](../assets/screenshots/spare-part-transactions.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Spare_Part_Transactions`
 

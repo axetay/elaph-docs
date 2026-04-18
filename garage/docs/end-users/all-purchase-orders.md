@@ -1,6 +1,6 @@
 # All Purchase Orders
 
-![All Purchase Orders screenshot](all-purchase-orders.png)
+![All Purchase Orders screenshot](../assets/screenshots/all-purchase-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Purchase_Orders`
 

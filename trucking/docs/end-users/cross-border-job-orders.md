@@ -1,6 +1,6 @@
 # Cross Border Job Orders
 
-![Cross Border Job Orders screenshot](cross-border-job-orders.png)
+![Cross Border Job Orders screenshot](../assets/screenshots/cross-border-job-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Cross_Border_Job_Orders`
 

@@ -1,6 +1,6 @@
 # Cost Per KM
 
-![Cost Per KM screenshot](cost-per-km.png)
+![Cost Per KM screenshot](../assets/screenshots/cost-per-km.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Cost_Per_KM1`
 

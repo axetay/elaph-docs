@@ -1,6 +1,6 @@
 # Domestic Shipment Details
 
-![Domestic Shipment Details screenshot](domestic-shipment-details.png)
+![Domestic Shipment Details screenshot](../assets/screenshots/domestic-shipment-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Domestic_Shipment_Details`
 

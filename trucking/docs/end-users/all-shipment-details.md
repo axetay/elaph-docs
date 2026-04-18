@@ -1,6 +1,6 @@
 # All Shipment Details
 
-![All Shipment Details screenshot](all-shipment-details.png)
+![All Shipment Details screenshot](../assets/screenshots/all-shipment-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:All_Shipment_Details`
 

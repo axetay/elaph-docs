@@ -1,6 +1,6 @@
 # Vehicles
 
-![Vehicles screenshot](vehicles.png)
+![Vehicles screenshot](../assets/screenshots/vehicles.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Vehicles`
 

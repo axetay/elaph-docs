@@ -1,6 +1,6 @@
 # All Automation Controls
 
-![All Automation Controls screenshot](all-automation-controls.png)
+![All Automation Controls screenshot](../assets/screenshots/all-automation-controls.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Automation_Controls`
 

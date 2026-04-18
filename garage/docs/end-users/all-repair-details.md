@@ -1,6 +1,6 @@
 # All Repair Details
 
-![All Repair Details screenshot](all-repair-details.png)
+![All Repair Details screenshot](../assets/screenshots/all-repair-details.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:All_Repair_Details`
 

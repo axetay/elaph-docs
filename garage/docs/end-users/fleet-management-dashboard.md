@@ -1,6 +1,6 @@
 # Fleet Management Dashboard
 
-![Fleet Management Dashboard screenshot](fleet-management-dashboard.png)
+![Fleet Management Dashboard screenshot](../assets/screenshots/fleet-management-dashboard.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Page:Fleet_Management_Dashboard`
 

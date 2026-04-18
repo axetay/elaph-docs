@@ -1,6 +1,6 @@
 # Job Orders
 
-![Job Orders screenshot](job-orders.png)
+![Job Orders screenshot](../assets/screenshots/job-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Job_Orders`
 

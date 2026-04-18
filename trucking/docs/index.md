@@ -4,5 +4,5 @@ Welcome to the U-Go Trucking Management System documentation.
 
 ## Sections
 
-- [End Users](end-users/dashboard.md) — Day-to-day operations guide
+- [End Users](end-users/ugo-trucking-dashboard.md) — Day-to-day operations guide
 - [Administrators](admin/overview.md) — System management guide

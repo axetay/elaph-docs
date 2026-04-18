@@ -1,6 +1,6 @@
 # Domestic Job Orders
 
-![Domestic Job Orders screenshot](domestic-job-orders.png)
+![Domestic Job Orders screenshot](../assets/screenshots/domestic-job-orders.png)
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Domestic_Job_Orders`
 
