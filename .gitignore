@@ -5,8 +5,4 @@ __pycache__/
 site/
 garage/site/
 trucking/site/
-scripts/garage_manifest.json
-scripts/trucking_manifest.json
-scripts/garage_manifest_enriched.json
-scripts/trucking_manifest_enriched.json
 .env
