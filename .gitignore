@@ -7,3 +7,4 @@ garage/site/
 trucking/site/
 scripts/garage_manifest.json
 scripts/trucking_manifest.json
+.env
