@@ -20,7 +20,6 @@ This page captures all details for a shipment that crosses international borders
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Job_Order | Unique identifier for this shipment job. Select an existing order or enter a new one to link all cross-border details to the correct shipment. | text | No |
 | Destination_Type | Category describing where the load ends (for example: port, distribution center, customer warehouse). Helps with route planning and documentation. | text | No |
 | Cross_Border_Trailer_Type | The type of trailer required for this shipment (for example: dry van, refrigerated, flatbed, tanker). Must match your cargo requirements and cross-border regulations. | text | No |
@@ -33,24 +32,6 @@ This page captures all details for a shipment that crosses international borders
 | Cross Border Sub Contracted Vehicle | License plate or vehicle ID of the subcontracted truck. Required if the vehicle is not company-owned. | text | No |
 | Cross Border Subcontracted Driver | Name and license information of the hired driver. Include contact details and any special certifications needed. | textarea | No |
 | Cross Border Driver Cash Advance | Cash amount given to the driver before departure for tolls, fuel, meals, or other cross-border expenses. | text | No |
-| Cross_Border_Cash_Advance_Currency | The currency for the cash advance (USD, CAD, MXN, etc.). Important for reimbursement and accounting. | text | No |
-| Cross Border Cash Advance Paid by |  | text | No |
-| Cross Border Shipment Notes |  | textarea | No |
-| submit |  | submit | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

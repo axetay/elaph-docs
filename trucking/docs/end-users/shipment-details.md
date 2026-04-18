@@ -20,7 +20,6 @@ The Shipment Details page lets you record and manage the complete information fo
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Job_Order | Links this shipment to a specific job order. Leave blank if this is not tied to a job order. | text | No |
 | Container No. | The identification number printed on the shipping container. | text | No |
 | Container_Assigned | Check this box once a physical container has been assigned and allocated to this shipment. | checkbox | No |
@@ -30,31 +29,10 @@ The Shipment Details page lets you record and manage the complete information fo
 | Goods Description | A detailed description of what is being shipped—include the commodity type, any special handling requirements, and hazard classifications if applicable. | textarea | No |
 | Weight (tons) | The total weight of all cargo in the shipment, measured in metric tons. | text | No |
 | Truck_Source | Where the truck originates from (for example, company fleet, external partner, or subcontractor). | text | No |
-| Assigned_Vehicle | The truck or vehicle number assigned to haul this shipment. | text | No |
 | Assigned_Trailer | The trailer number attached to the vehicle for this shipment. | text | No |
-| Assigned_Driver | The name or ID of the driver assigned to operate this shipment. | text | No |
 | Buy Rate of Subcontracted Vehicle | The cost per shipment or per ton if using a subcontracted vehicle; leave blank for company fleet vehicles. | text | No |
 | Subcontractor Vehicle Number | The license plate or vehicle ID number if the shipment is being hauled by a subcontractor's vehicle. | text | No |
 | Subcontractor Driver Name & Contact | The full name, phone number, and email of the subcontractor's driver for this shipment. | textarea | No |
-| Driver Cash In Advance |  | text | No |
-| Currency |  | text | No |
-| Paid_By |  | text | No |
-| submit |  | submit | No |
-| reset |  | reset | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

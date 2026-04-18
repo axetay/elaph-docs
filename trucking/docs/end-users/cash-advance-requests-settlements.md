@@ -28,14 +28,11 @@ Use this page to request and track cash advances for trucking jobs before final 
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Cash Advance ID | Auto-generated number that tracks your request. Leave blank for new requests. | text | No |
 | Client Name |  | text | No |
 | Route |  | text | No |
 | Shipping Order No. |  | text | No |
 | Port Representative |  | text | No |
-| Job_Order | Select the specific job order from the dropdown. Search by order number if you don't see it in the list. | text | No |
-| Port_Representative | The person at the port or client company who authorizes or confirms this advance. Use the dropdown to find their name. | text | No |
 | Selling Price | The total contract value for this shipping job. | text | No |
 | MBL No. | Master Bill of Lading number—identifies the shipment at the port. | text | No |
 | Work Type | Category of work, such as 'hauling,' 'drayage,' or 'warehouse service.' | text | No |
@@ -46,35 +43,6 @@ Use this page to request and track cash advances for trucking jobs before final 
 | Advance Amount | The cash amount you need upfront. | text | No |
 | Currency | The currency for payment: PHP, USD, etc. | text | No |
 | Payment_Method | How you want to receive the money: bank transfer, check, cash pickup, etc. | text | No |
-| Requested By |  | text | No |
-| Approved_By | The manager or finance person who has authority to approve this request. | text | No |
-| Payment_Date |  | text | No |
-| Status |  | text | No |
-| Approved Amount |  | text | No |
-| Total Expenses |  | text | No |
-| Balance |  | text | No |
-| Settlement_Balance_Status |  | text | No |
-| New_Settlement |  | text | No |
-| Finance_Reviewed_By |  | text | No |
-| Finance_Audit_Status |  | text | No |
-| Finance_Review_Date |  | text | No |
-| Finance Notes |  | textarea | No |
-| submit |  | submit | No |
-| reset |  | reset | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

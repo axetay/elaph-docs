@@ -22,28 +22,6 @@ The Driver Unpaid Summary page helps you review and manage outstanding payments 
 - Copy/Paste this code into your website
 - Use this snippet as the permalink for your form
 
-## Form Fields
-
-| Field | Description | Type | Required |
-|-------|-------------|------|----------|
-| lang-select-dropdown | Choose a language to display the page content. Useful if you prefer to work in a language other than the default. | dropdown | No |
-| pData | Additional notes or data fields for recording driver payment information or special circumstances related to unpaid invoices. | textarea | No |
-| pData | Additional notes or data fields for recording driver payment information or special circumstances related to unpaid invoices. | textarea | No |
-| close |  | button | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... | Enter a driver name, ID, or invoice number to quickly locate specific unpaid records instead of scrolling through the entire list. | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId | Enter your email address so support can respond to your request or question about driver payments. | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType | Select the type of issue you need help with—choose the category that best matches your question or problem. | dropdown | No |
-| Please enable edit permission to help with troubleshooting | Check this box only if you want to allow the support team temporary access to edit your data while troubleshooting a payment issue. | checkbox | No |
-| reachusChatDescription | Describe your question or issue in detail so the support team understands exactly what you need help with. | textarea | No |
-| reachUsStartChat |  | button | No |
-
 ## Actions
 
 - **Done**

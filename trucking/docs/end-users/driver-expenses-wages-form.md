@@ -37,15 +37,7 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Driver Expenses & Wages ID |  | text | No |
-| Work_Type | Select whether this job is a domestic delivery, subcontractor assignment, or cross-border transport. This determines wage rates and expense categories. | text | No |
-| Container_No | Enter the container or load number if this delivery involves a specific container. Leave blank if not applicable. | text | No |
-| Domestic_Destination_Type | Select the destination category (city, port, warehouse, etc.) for domestic jobs only. | text | No |
-| Subcontractor_Destination_Type | Select the destination category for work assigned through subcontractors. | text | No |
-| Cross_Border_Destination_Type | Select the destination category for deliveries crossing national borders. | text | No |
-| Job_Order | Search for and select the job order number. This links the expense to the correct billing and route record. | text | No |
-| Job_Order_Date |  | text | No |
 | Vehicle No. |  | text | No |
 | Distance (km) | Enter the total distance traveled for this job. Measure from pickup to final drop-off point. | text | No |
 | Fuel Consumption ( L / Km ) | Enter the truck's fuel consumption rate. This is typically provided by your fleet manager or calculated from recent tank fills. | text | No |
@@ -53,72 +45,8 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 | Driver Name |  | text | No |
 | Consumption Rate | This is the standard fuel cost per liter. The system uses this to calculate total fuel expenses. | text | No |
 | Fuel Cost ( EGP ) | The system calculates this automatically based on distance, consumption rate, and fuel price. Verify the amount before submitting. | text | No |
-| Route_Name | The route name auto-populates when you select a Job Order. Do not edit unless correcting an error. | text | No |
 | Advance Amount |  | text | No |
 | Fuel Price |  | text | No |
-| #,###,###.## |  | text | No |
-| uploadFile |  | file | No |
-| All Driver Expenses |  | text | No |
-| Balance |  | text | No |
-| Yes |  | checkbox | No |
-| Shipment_Container |  | text | No |
-| Driver_Assistant |  | radio | No |
-| Driver_Assistant |  | radio | No |
-| Detention |  | radio | No |
-| Detention |  | radio | No |
-| Overnight_Fee |  | radio | No |
-| Overnight_Fee |  | radio | No |
-| Number of Overnights |  | text | No |
-| Driver Fee |  | text | No |
-| Driver Assistant Fee |  | text | No |
-| Overnight Fees |  | text | No |
-| Total Driver Wages |  | text | No |
-| Destination |  | text | No |
-| Driver Assistant Name |  | text | No |
-| Rerouting |  | radio | No |
-| Rerouting |  | radio | No |
-| Rerouting Fee |  | text | No |
-| Agreed Subcontracted Amount |  | text | No |
-| Amount To Pay |  | text | No |
-| Subcontractor Amount To Pay |  | text | No |
-| Cross Border Driver Fee |  | text | No |
-| Cross Border Driver Amount to Pay |  | text | No |
-| Domestic_Driver_Assistant |  | radio | No |
-| Domestic_Driver_Assistant |  | radio | No |
-| Domestic Driver Assistant Name |  | text | No |
-| Domestic Sell Rate |  | text | No |
-| Domestic Driver Fee |  | text | No |
-| Domestic Driver Assistant Fee |  | text | No |
-| Domestic Total Driver Fees |  | text | No |
-| Driver Wage % |  | text | No |
-| Assistant Wage % |  | text | No |
-| Domestic Driver Amount to Pay |  | text | No |
-| Agreed Cross Border Subcontracted Amount |  | text | No |
-| Cross Border Subcontractor Amount to Pay |  | text | No |
-| Paid_Status |  | radio | No |
-| Paid_Status |  | radio | No |
-| Date_of_Payment |  | text | No |
-| Garage_Supervisor_Approval |  | text | No |
-| Finance_Audit_Approval |  | text | No |
-| Final Driver Payable Amount |  | text | No |
-| Driver Amount to Pay |  | text | No |
-| Currency |  | text | No |
-| submit |  | submit | No |
-| reset |  | reset | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

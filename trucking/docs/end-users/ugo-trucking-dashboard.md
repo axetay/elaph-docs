@@ -16,25 +16,6 @@ The UGO Trucking Dashboard Overview is your main hub for managing support reques
 6. Click the reachUsStartChat button to submit your request to the support team.
 7. Use the Done or Submit Request button at the bottom to finalize and save your submission.
 
-## Form Fields
-
-| Field | Description | Type | Required |
-|-------|-------------|------|----------|
-| lang-select-dropdown | Choose your preferred language for the dashboard interface. Changing this will update all menu labels and instructions. | dropdown | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId | Enter your work email address. This is required so support can send you updates about your case. | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType | Select the category that best describes your issue—this helps the support team route your request to the right specialist. | dropdown | No |
-| Please enable edit permission to help with troubleshooting | Check this box only if you are willing to let support staff temporarily access your account to diagnose and fix the problem. | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat | Type a clear description of your problem or question. Include relevant details like truck ID, shipment number, or what screen you were on when the issue occurred. | button | No |
-
 ## Actions
 
 - **Done**

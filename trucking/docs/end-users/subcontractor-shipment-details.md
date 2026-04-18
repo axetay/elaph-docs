@@ -20,7 +20,6 @@ This page lets you record and manage shipment details for subcontractors working
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Job_Order | Select the job number this subcontractor shipment is assigned to. This links the shipment to your main job record. | text | No |
 | Destination_Type | Select where this shipment is going—choose from your standard destination categories (warehouse, customer location, distribution center, etc.). | text | No |
 | Subcontractor_Shipment_Type | Indicate the shipment classification, such as full truckload, partial load, or expedited delivery. | text | No |
@@ -32,21 +31,6 @@ This page lets you record and manage shipment details for subcontractors working
 | Subcontractor Driver Cash Advance | Enter the dollar amount of cash given to the driver for fuel, tolls, or other trip expenses (if applicable). | text | No |
 | Subcontractor Cash Advance Paid by | Note who provided the cash advance—your company, the subcontractor, or another party. | text | No |
 | Subcontractor Shipment Notes | Add any special instructions, hazmat warnings, handling requirements, or delivery notes the driver needs to know. | textarea | No |
-| submit |  | submit | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

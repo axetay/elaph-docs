@@ -20,7 +20,6 @@ The Domestic Shipment Details page lets you record and manage all information fo
 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
-| lang-select-dropdown |  | dropdown | No |
 | Job_Order | The reference number for this shipment. Enter the existing job order number or leave blank if creating a new one. | text | No |
 | Destination_Type | Choose the delivery pattern: single destination, multiple delivery points, or hub-based delivery. This helps plan the route. | text | No |
 | Domestic_Shipment_Type | Select the cargo category (full load, partial load, less than truck load, etc.) to determine pricing and vehicle assignment. | text | No |
@@ -33,22 +32,6 @@ The Domestic Shipment Details page lets you record and manage all information fo
 | Buy Rate of Subcontracted Vehicle | Enter the cost per mile or fixed rate you will pay the subcontractor for this shipment. | text | No |
 | Domestic Subcontracted Vehicle | Enter the subcontractor's vehicle details (company name and truck number) if not using a company vehicle. | text | No |
 | Domestic Subcontracted Driver | Enter the subcontractor's driver name and contact information. | textarea | No |
-| Domestic Driver Advance Amount | Enter any cash advance given to the driver before the trip. This reduces their final payment after the shipment completes. | text | No |
-| submit |  | submit | No |
-| searchmap |  | text | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId |  | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType |  | dropdown | No |
-| Please enable edit permission to help with troubleshooting |  | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat |  | button | No |
 
 ## Actions
 

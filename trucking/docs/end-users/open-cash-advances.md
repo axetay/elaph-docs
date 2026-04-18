@@ -23,28 +23,6 @@ The Open Cash Advances page allows dispatchers and finance staff to request and 
 - Copy/Paste this code into your website
 - Use this snippet as the permalink for your form
 
-## Form Fields
-
-| Field | Description | Type | Required |
-|-------|-------------|------|----------|
-| lang-select-dropdown | Choose your preferred language for the form and communications. | dropdown | No |
-| pData |  | textarea | No |
-| pData |  | textarea | No |
-| close |  | button | No |
-| useIconSwitch |  | checkbox | No |
-| toggleIconSwitch |  | checkbox | No |
-| saveIcons |  | button | No |
-| resetIcons |  | button | No |
-| Search... |  | text | No |
-| I have read the above conditions. |  | checkbox | No |
-| reqEmailId | Enter your work email address. The finance team will use this to contact you about your cash advance request. | text | No |
-| s2id_autogen2 |  | text | No |
-| s2id_autogen2_search |  | text | No |
-| supportType | Select the category that matches your request—such as driver cash advance, fuel prepayment, or other operational expense. | dropdown | No |
-| Please enable edit permission to help with troubleshooting | Check this box only if you want to give the support team temporary access to your request for troubleshooting purposes. | checkbox | No |
-| reachusChatDescription |  | textarea | No |
-| reachUsStartChat | Type a clear description of why you need the cash advance. Include the driver's name, trip number, or expense details so finance staff can approve it without delays. | button | No |
-
 ## Actions
 
 - **Done**
