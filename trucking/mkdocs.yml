@@ -1,0 +1,28 @@
+site_name: U-Go Trucking Management System — User Manual
+site_description: Complete user manual for the U-Go Trucking Management System
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - End Users:
+      - end-users/dashboard.md
+  - Admin:
+      - admin/overview.md
