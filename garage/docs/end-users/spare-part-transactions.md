@@ -2,7 +2,15 @@
 
 ![Spare Part Transactions screenshot](../assets/screenshots/spare-part-transactions.png)
 
+This page manages spare part transactions records.
+
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Spare_Part_Transactions`
+
+## How to Use
+
+1. Open this page from the sidebar.
+2. Review or enter the required information.
+3. Save your changes.
 
 ## Page Sections
 
@@ -12,54 +20,54 @@
 
 ## Form Fields
 
-| Field | Type | Required |
-|-------|------|----------|
-| lang-select-dropdown | dropdown | No |
-| Transaction_Date | text | No |
-| Supplier Contact Person | text | No |
-| Supplier Name | text | No |
-| Supplier Phone / Mobile | tel | No |
-| Brand | text | No |
-| zc-sel2-foc-Spare_Part | text | No |
-| zc-sel2-inp-Spare_Part | text | No |
-| Spare_Part | text | No |
-| zc-sel2-foc-Spare_Part_Condition | text | No |
-| zc-sel2-inp-Spare_Part_Condition | text | No |
-| Spare_Part_Condition | text | No |
-| Spare Part Number | text | No |
-| Unit Price | text | No |
-| File_upload | hidden | No |
-| uploadFile | file | No |
-| Quantity | text | No |
-| Total Value | text | No |
-| Old Trans Quantity | text | No |
-| zc-sel2-foc-Maintenance_Order | text | No |
-| zc-sel2-inp-Maintenance_Order | text | No |
-| Maintenance_Order | text | No |
-| zc-sel2-foc-Stock_Batch | text | No |
-| zc-sel2-inp-Stock_Batch | text | No |
-| Stock_Batch | text | No |
-| zc-sel2-foc-Transaction_Type | text | No |
-| zc-sel2-inp-Transaction_Type | text | No |
-| Transaction_Type | text | No |
-| submit | submit | No |
-| searchmap | text | No |
-| useIconSwitch | checkbox | No |
-| toggleIconSwitch | checkbox | No |
-| saveIcons | button | No |
-| resetIcons | button | No |
-| Search... | text | No |
-| I have read the above conditions. | checkbox | No |
-| reqEmailId | text | No |
-| s2id_autogen2 | text | No |
-| s2id_autogen2_search | text | No |
-| supportType | dropdown | No |
-| Please enable edit permission to help with troubleshooting | checkbox | No |
-| reachusChatDescription | textarea | No |
-| reachUsStartChat | button | No |
-| zc-reachus-editaccess-enable-button | button | No |
-| zc-reachus-editaccess-revoke-button | button | No |
-| zc-reachus-screenrecord-button | button | No |
+| Field | Description | Type | Required |
+|-------|-------------|------|----------|
+| lang-select-dropdown |  | dropdown | No |
+| Transaction_Date |  | text | No |
+| Supplier Contact Person |  | text | No |
+| Supplier Name |  | text | No |
+| Supplier Phone / Mobile |  | tel | No |
+| Brand |  | text | No |
+| zc-sel2-foc-Spare_Part |  | text | No |
+| zc-sel2-inp-Spare_Part |  | text | No |
+| Spare_Part |  | text | No |
+| zc-sel2-foc-Spare_Part_Condition |  | text | No |
+| zc-sel2-inp-Spare_Part_Condition |  | text | No |
+| Spare_Part_Condition |  | text | No |
+| Spare Part Number |  | text | No |
+| Unit Price |  | text | No |
+| File_upload |  | hidden | No |
+| uploadFile |  | file | No |
+| Quantity |  | text | No |
+| Total Value |  | text | No |
+| Old Trans Quantity |  | text | No |
+| zc-sel2-foc-Maintenance_Order |  | text | No |
+| zc-sel2-inp-Maintenance_Order |  | text | No |
+| Maintenance_Order |  | text | No |
+| zc-sel2-foc-Stock_Batch |  | text | No |
+| zc-sel2-inp-Stock_Batch |  | text | No |
+| Stock_Batch |  | text | No |
+| zc-sel2-foc-Transaction_Type |  | text | No |
+| zc-sel2-inp-Transaction_Type |  | text | No |
+| Transaction_Type |  | text | No |
+| submit |  | submit | No |
+| searchmap |  | text | No |
+| useIconSwitch |  | checkbox | No |
+| toggleIconSwitch |  | checkbox | No |
+| saveIcons |  | button | No |
+| resetIcons |  | button | No |
+| Search... |  | text | No |
+| I have read the above conditions. |  | checkbox | No |
+| reqEmailId |  | text | No |
+| s2id_autogen2 |  | text | No |
+| s2id_autogen2_search |  | text | No |
+| supportType |  | dropdown | No |
+| Please enable edit permission to help with troubleshooting |  | checkbox | No |
+| reachusChatDescription |  | textarea | No |
+| reachUsStartChat |  | button | No |
+| zc-reachus-editaccess-enable-button |  | button | No |
+| zc-reachus-editaccess-revoke-button |  | button | No |
+| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 
@@ -72,6 +80,15 @@
 - **Submit**
 - **Submit Request**
 
+## Related Pages
+
+- [All Spare Parts](all-spare-parts.md)
+- [Spare Part Stock](spare-part-stock.md)
+- [All Spare Part Stocks](all-spare-part-stocks.md)
+- [All Spare Part Transactions](all-spare-part-transactions.md)
+- [Request Spare Parts](request-spare-parts.md)
+- [Request Spare Parts Report](request-spare-parts-report.md)
+
 ## Common Workflows
 
-_Document step-by-step workflows for this page here._
+_Add step-by-step workflows specific to your organisation here._

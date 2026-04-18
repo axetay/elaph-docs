@@ -2,7 +2,19 @@
 
 ![Clients Master Data Report screenshot](../assets/screenshots/clients-master-data-report.png)
 
+The Clients Master Data Report displays all your company's client accounts with key information like contact details, tax IDs, and classification. Use this page to view, update, or manage client records during daily operations and when onboarding new customers.
+
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Report:Clients_Master_Data_Report`
+
+## How to Use
+
+1. Open the Clients Master Data Report from the Master Data menu.
+2. Use the Language dropdown if you need to view the report in a different language.
+3. Review the table to find the client you need. Use sorting or filtering if the list is long.
+4. Click on a client row to open their full record for viewing or editing details.
+5. To make changes to multiple clients at once, check the boxes next to their names and select Bulk Edit.
+6. When finished making updates, click Submit Request to save all changes to the system.
+7. Use Export to download the client list for external reports or Import to add new clients in bulk.
 
 ## Page Sections
 
@@ -10,133 +22,133 @@
 
 ## Form Fields
 
-| Field | Type | Required |
-|-------|------|----------|
-| lang-select-dropdown | dropdown | No |
-| Checkbox | checkbox | No |
-| 4780709000000834006_checkbox | checkbox | No |
-| 4780709000000640115_checkbox | checkbox | No |
-| 4780709000000528057_checkbox | checkbox | No |
-| 4780709000000525410_checkbox | checkbox | No |
-| 4780709000000516029_checkbox | checkbox | No |
-| 4780709000000418063_checkbox | checkbox | No |
-| 4780709000000418059_checkbox | checkbox | No |
-| 4780709000000418055_checkbox | checkbox | No |
-| 4780709000000418051_checkbox | checkbox | No |
-| 4780709000000418047_checkbox | checkbox | No |
-| 4780709000000418043_checkbox | checkbox | No |
-| 4780709000000418039_checkbox | checkbox | No |
-| 4780709000000418035_checkbox | checkbox | No |
-| 4780709000000418031_checkbox | checkbox | No |
-| 4780709000000418027_checkbox | checkbox | No |
-| 4780709000000418023_checkbox | checkbox | No |
-| 4780709000000418019_checkbox | checkbox | No |
-| 4780709000000418015_checkbox | checkbox | No |
-| 4780709000000418011_checkbox | checkbox | No |
-| 4780709000000418007_checkbox | checkbox | No |
-| 4780709000000418003_checkbox | checkbox | No |
-| Checkbox | checkbox | No |
-| wrapColsInputEl | checkbox | No |
-| show-hide-col-all | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| volume | range | No |
-| checkbox-Client_ID-ZC_30RT2M | checkbox | No |
-| s2id_autogen4 | text | No |
-| s2id_autogen4_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Client_Name-ZC_30RT2M | checkbox | No |
-| s2id_autogen6 | text | No |
-| s2id_autogen6_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Type-ZC_30RT2M | checkbox | No |
-| s2id_autogen8 | text | No |
-| s2id_autogen8_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Contact_Person-ZC_30RT2M | checkbox | No |
-| s2id_autogen10 | text | No |
-| s2id_autogen10_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Tax_ID-ZC_30RT2M | checkbox | No |
-| s2id_autogen12 | text | No |
-| s2id_autogen12_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Category-ZC_30RT2M | checkbox | No |
-| s2id_autogen14 | text | No |
-| s2id_autogen14_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Notes-ZC_30RT2M | checkbox | No |
-| s2id_autogen16 | text | No |
-| s2id_autogen16_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Contact_Number-ZC_30RT2M | checkbox | No |
-| s2id_autogen18 | text | No |
-| s2id_autogen18_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Email-ZC_30RT2M | checkbox | No |
-| s2id_autogen20 | text | No |
-| s2id_autogen20_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address-ZC_30RT2M | checkbox | No |
-| s2id_autogen22 | text | No |
-| s2id_autogen22_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.address_line_1-ZC_30RT2M | checkbox | No |
-| s2id_autogen24 | text | No |
-| s2id_autogen24_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.address_line_2-ZC_30RT2M | checkbox | No |
-| s2id_autogen26 | text | No |
-| s2id_autogen26_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.district_city-ZC_30RT2M | checkbox | No |
-| s2id_autogen28 | text | No |
-| s2id_autogen28_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.state_province-ZC_30RT2M | checkbox | No |
-| s2id_autogen30 | text | No |
-| s2id_autogen30_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.postal_Code-ZC_30RT2M | checkbox | No |
-| s2id_autogen32 | text | No |
-| s2id_autogen32_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Client_Address.country-ZC_30RT2M | checkbox | No |
-| s2id_autogen34 | text | No |
-| s2id_autogen34_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Credit_Terms1-ZC_30RT2M | checkbox | No |
-| s2id_autogen36 | text | No |
-| s2id_autogen36_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Bank_Details-ZC_30RT2M | checkbox | No |
-| s2id_autogen38 | text | No |
-| s2id_autogen38_search | text | No |
-| zc_searchSelect | dropdown | No |
-| allowlocation | button | No |
-| useIconSwitch | checkbox | No |
-| toggleIconSwitch | checkbox | No |
-| saveIcons | button | No |
-| resetIcons | button | No |
-| Search... | text | No |
-| I have read the above conditions. | checkbox | No |
-| reqEmailId | text | No |
-| s2id_autogen2 | text | No |
-| s2id_autogen2_search | text | No |
-| supportType | dropdown | No |
-| Please enable edit permission to help with troubleshooting | checkbox | No |
-| reachusChatDescription | textarea | No |
-| reachUsStartChat | button | No |
-| zc-reachus-editaccess-enable-button | button | No |
-| zc-reachus-editaccess-revoke-button | button | No |
-| zc-reachus-screenrecord-button | button | No |
+| Field | Description | Type | Required |
+|-------|-------------|------|----------|
+| lang-select-dropdown | Choose the language for viewing all labels and text on this report. Select your preferred language from the list. | dropdown | No |
+| Checkbox |  | checkbox | No |
+| 4780709000000834006_checkbox |  | checkbox | No |
+| 4780709000000640115_checkbox |  | checkbox | No |
+| 4780709000000528057_checkbox |  | checkbox | No |
+| 4780709000000525410_checkbox |  | checkbox | No |
+| 4780709000000516029_checkbox |  | checkbox | No |
+| 4780709000000418063_checkbox |  | checkbox | No |
+| 4780709000000418059_checkbox |  | checkbox | No |
+| 4780709000000418055_checkbox |  | checkbox | No |
+| 4780709000000418051_checkbox |  | checkbox | No |
+| 4780709000000418047_checkbox |  | checkbox | No |
+| 4780709000000418043_checkbox |  | checkbox | No |
+| 4780709000000418039_checkbox |  | checkbox | No |
+| 4780709000000418035_checkbox |  | checkbox | No |
+| 4780709000000418031_checkbox |  | checkbox | No |
+| 4780709000000418027_checkbox |  | checkbox | No |
+| 4780709000000418023_checkbox |  | checkbox | No |
+| 4780709000000418019_checkbox |  | checkbox | No |
+| 4780709000000418015_checkbox |  | checkbox | No |
+| 4780709000000418011_checkbox |  | checkbox | No |
+| 4780709000000418007_checkbox |  | checkbox | No |
+| 4780709000000418003_checkbox |  | checkbox | No |
+| Checkbox |  | checkbox | No |
+| wrapColsInputEl |  | checkbox | No |
+| show-hide-col-all |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| volume |  | range | No |
+| checkbox-Client_ID-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen4 |  | text | No |
+| s2id_autogen4_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Client_Name-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen6 |  | text | No |
+| s2id_autogen6_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Type-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen8 |  | text | No |
+| s2id_autogen8_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Contact_Person-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen10 |  | text | No |
+| s2id_autogen10_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Tax_ID-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen12 |  | text | No |
+| s2id_autogen12_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Category-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen14 |  | text | No |
+| s2id_autogen14_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Notes-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen16 |  | text | No |
+| s2id_autogen16_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Contact_Number-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen18 |  | text | No |
+| s2id_autogen18_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Email-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen20 |  | text | No |
+| s2id_autogen20_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen22 |  | text | No |
+| s2id_autogen22_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.address_line_1-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen24 |  | text | No |
+| s2id_autogen24_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.address_line_2-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen26 |  | text | No |
+| s2id_autogen26_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.district_city-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen28 |  | text | No |
+| s2id_autogen28_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.state_province-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen30 |  | text | No |
+| s2id_autogen30_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.postal_Code-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen32 |  | text | No |
+| s2id_autogen32_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Client_Address.country-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen34 |  | text | No |
+| s2id_autogen34_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Credit_Terms1-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen36 |  | text | No |
+| s2id_autogen36_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Bank_Details-ZC_30RT2M |  | checkbox | No |
+| s2id_autogen38 |  | text | No |
+| s2id_autogen38_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| allowlocation |  | button | No |
+| useIconSwitch |  | checkbox | No |
+| toggleIconSwitch |  | checkbox | No |
+| saveIcons |  | button | No |
+| resetIcons |  | button | No |
+| Search... |  | text | No |
+| I have read the above conditions. |  | checkbox | No |
+| reqEmailId |  | text | No |
+| s2id_autogen2 |  | text | No |
+| s2id_autogen2_search |  | text | No |
+| supportType |  | dropdown | No |
+| Please enable edit permission to help with troubleshooting |  | checkbox | No |
+| reachusChatDescription |  | textarea | No |
+| reachUsStartChat |  | button | No |
+| zc-reachus-editaccess-enable-button |  | button | No |
+| zc-reachus-editaccess-revoke-button |  | button | No |
+| zc-reachus-screenrecord-button |  | button | No |
 
 ## Table Columns
 
@@ -164,6 +176,21 @@
 - **AddAdd (Option + Shift + N)**
 - **Submit Request**
 
+## Tips
+
+- Before deleting a client record, check that they have no active shipments or pending invoices. Use the Delete button only after confirming all transactions are closed.
+- Use the Show as button to switch between list view and other display formats if the standard table view is difficult to read or navigate.
+
+## Related Pages
+
+- [Port Representatives Master Data Report](port-representatives-master-data-report.md)
+- [Vendors Master Data Report](vendors-master-data-report.md)
+- [All Locations Master Data](all-locations-master-data.md)
+- [Routes Master Data](routes-master-data.md)
+- [Routes Master Data Report](routes-master-data-report.md)
+- [Driver Trip Allowances Master Data](driver-trip-allowances-master-data.md)
+- [Driver Trip Allowances Master Data Report](driver-trip-allowances-master-data-report.md)
+
 ## Common Workflows
 
-_Document step-by-step workflows for this page here._
+_Add step-by-step workflows specific to your organisation here._

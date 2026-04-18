@@ -2,7 +2,19 @@
 
 ![Fuel – Vehicle Performance Summary screenshot](../assets/screenshots/fuel-vehicle-performance-summary.png)
 
+This page displays a summary of your vehicle's fuel consumption and efficiency over time. Use it to track fuel costs, monitor vehicle performance, and identify trends in fuel economy (kilometers per liter). Operations staff review this data regularly to spot maintenance issues and control fuel expenses.
+
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Report:Fuel_Vehicle_Performance_Summary1`
+
+## How to Use
+
+1. Open the Fuel – Vehicle Performance Summary page from the Fuel Management section.
+2. Select your preferred language using the lang-select-dropdown if needed.
+3. Review the table showing Date, Total Liters, Total Cost (EGP), and Avg KM/L for each fuel entry.
+4. Use the checkboxes to select specific fuel records or data categories you want to filter or export.
+5. Click Print to generate a report, or Export to download the data for further analysis.
+6. Check the Avg KM/L column to identify any sudden drops in fuel efficiency, which may indicate maintenance needs.
+7. Click Done when finished reviewing the summary.
 
 ## Page Sections
 
@@ -10,152 +22,152 @@
 
 ## Form Fields
 
-| Field | Type | Required |
-|-------|------|----------|
-| lang-select-dropdown | dropdown | No |
-| Checkbox | checkbox | No |
-| groupid0_ZC_CSBZEQ | checkbox | No |
-| 4780709000000832002_checkbox | checkbox | No |
-| 4780709000000832004_checkbox | checkbox | No |
-| 4780709000000835029_checkbox | checkbox | No |
-| groupid1_ZC_CSBZEQ | checkbox | No |
-| 4780709000000835042_checkbox | checkbox | No |
-| 4780709000000797002_checkbox | checkbox | No |
-| 4780709000000797004_checkbox | checkbox | No |
-| 4780709000000805030_checkbox | checkbox | No |
-| 4780709000000805032_checkbox | checkbox | No |
-| 4780709000000805034_checkbox | checkbox | No |
-| groupid2_ZC_CSBZEQ | checkbox | No |
-| 4780709000000835046_checkbox | checkbox | No |
-| 4780709000000835048_checkbox | checkbox | No |
-| 4780709000000819028_checkbox | checkbox | No |
-| 4780709000000805020_checkbox | checkbox | No |
-| groupid3_ZC_CSBZEQ | checkbox | No |
-| 4780709000000805046_checkbox | checkbox | No |
-| 4780709000000832009_checkbox | checkbox | No |
-| 4780709000000835035_checkbox | checkbox | No |
-| groupid4_ZC_CSBZEQ | checkbox | No |
-| 4780709000000805039_checkbox | checkbox | No |
-| 4780709000000805041_checkbox | checkbox | No |
-| 4780709000000832031_checkbox | checkbox | No |
-| 4780709000000832034_checkbox | checkbox | No |
-| 4780709000000832036_checkbox | checkbox | No |
-| 4780709000000835038_checkbox | checkbox | No |
-| groupid5_ZC_CSBZEQ | checkbox | No |
-| 4780709000000805051_checkbox | checkbox | No |
-| 4780709000000819036_checkbox | checkbox | No |
-| 4780709000000832012_checkbox | checkbox | No |
-| 4780709000000835032_checkbox | checkbox | No |
-| groupid6_ZC_CSBZEQ | checkbox | No |
-| 4780709000000832028_checkbox | checkbox | No |
-| 4780709000000835051_checkbox | checkbox | No |
-| 4780709000000835053_checkbox | checkbox | No |
-| 4780709000000819031_checkbox | checkbox | No |
-| 4780709000000805004_checkbox | checkbox | No |
-| 4780709000000819033_checkbox | checkbox | No |
-| 4780709000000805006_checkbox | checkbox | No |
-| 4780709000000805008_checkbox | checkbox | No |
-| 4780709000000805010_checkbox | checkbox | No |
-| 4780709000000832026_checkbox | checkbox | No |
-| groupid7_ZC_CSBZEQ | checkbox | No |
-| 4780709000000835023_checkbox | checkbox | No |
-| 4780709000000835025_checkbox | checkbox | No |
-| 4780709000000835027_checkbox | checkbox | No |
-| 4780709000000832017_checkbox | checkbox | No |
-| groupid8_ZC_CSBZEQ | checkbox | No |
-| 4780709000000835002_checkbox | checkbox | No |
-| 4780709000000835004_checkbox | checkbox | No |
-| 4780709000000835006_checkbox | checkbox | No |
-| 4780709000000835008_checkbox | checkbox | No |
-| 4780709000000835010_checkbox | checkbox | No |
-| 4780709000000832022_checkbox | checkbox | No |
-| groupid9_ZC_CSBZEQ | checkbox | No |
-| 4780709000000797009_checkbox | checkbox | No |
-| 4780709000000797011_checkbox | checkbox | No |
-| 4780709000000835056_checkbox | checkbox | No |
-| 4780709000000835058_checkbox | checkbox | No |
-| Checkbox | checkbox | No |
-| wrapColsInputEl | checkbox | No |
-| show-hide-col-all | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| viewdel | checkbox | No |
-| volume | range | No |
-| checkbox-Date_field1-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen92 | text | No |
-| s2id_autogen92_search | text | No |
-| zc_searchSelect | dropdown | No |
-| viewSearchEl_Date_field1 | text | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Fuel_Quantity-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen94 | text | No |
-| s2id_autogen94_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Total_Fuel_Cost-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen96 | text | No |
-| s2id_autogen96_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Actual_Consumption-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen98 | text | No |
-| s2id_autogen98_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Driver-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen100 | text | No |
-| s2id_autogen100_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Odometer_Reading-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen102 | text | No |
-| s2id_autogen102_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Fuel_Price_Per_Liter-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen104 | text | No |
-| s2id_autogen104_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Distance_Since_Last_Fuel-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen106 | text | No |
-| s2id_autogen106_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| checkbox-Status-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen108 | text | No |
-| s2id_autogen108_search | text | No |
-| zc_searchSelect | dropdown | No |
-| checkbox-Consumption_Deviation-ZC_CSBZEQ | checkbox | No |
-| s2id_autogen110 | text | No |
-| s2id_autogen110_search | text | No |
-| zc_searchSelect | dropdown | No |
-| From | text | No |
-| To | text | No |
-| allowlocation | button | No |
-| useIconSwitch | checkbox | No |
-| toggleIconSwitch | checkbox | No |
-| saveIcons | button | No |
-| resetIcons | button | No |
-| Search... | text | No |
-| I have read the above conditions. | checkbox | No |
-| reqEmailId | text | No |
-| s2id_autogen2 | text | No |
-| s2id_autogen2_search | text | No |
-| supportType | dropdown | No |
-| Please enable edit permission to help with troubleshooting | checkbox | No |
-| reachusChatDescription | textarea | No |
-| reachUsStartChat | button | No |
-| zc-reachus-editaccess-enable-button | button | No |
-| zc-reachus-editaccess-revoke-button | button | No |
-| zc-reachus-screenrecord-button | button | No |
+| Field | Description | Type | Required |
+|-------|-------------|------|----------|
+| lang-select-dropdown | Choose the language for the page display. This is optional and defaults to your system language. | dropdown | No |
+| Checkbox |  | checkbox | No |
+| groupid0_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000832002_checkbox |  | checkbox | No |
+| 4780709000000832004_checkbox |  | checkbox | No |
+| 4780709000000835029_checkbox |  | checkbox | No |
+| groupid1_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000835042_checkbox |  | checkbox | No |
+| 4780709000000797002_checkbox |  | checkbox | No |
+| 4780709000000797004_checkbox |  | checkbox | No |
+| 4780709000000805030_checkbox |  | checkbox | No |
+| 4780709000000805032_checkbox |  | checkbox | No |
+| 4780709000000805034_checkbox |  | checkbox | No |
+| groupid2_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000835046_checkbox |  | checkbox | No |
+| 4780709000000835048_checkbox |  | checkbox | No |
+| 4780709000000819028_checkbox |  | checkbox | No |
+| 4780709000000805020_checkbox |  | checkbox | No |
+| groupid3_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000805046_checkbox |  | checkbox | No |
+| 4780709000000832009_checkbox |  | checkbox | No |
+| 4780709000000835035_checkbox |  | checkbox | No |
+| groupid4_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000805039_checkbox |  | checkbox | No |
+| 4780709000000805041_checkbox |  | checkbox | No |
+| 4780709000000832031_checkbox |  | checkbox | No |
+| 4780709000000832034_checkbox |  | checkbox | No |
+| 4780709000000832036_checkbox |  | checkbox | No |
+| 4780709000000835038_checkbox |  | checkbox | No |
+| groupid5_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000805051_checkbox |  | checkbox | No |
+| 4780709000000819036_checkbox |  | checkbox | No |
+| 4780709000000832012_checkbox |  | checkbox | No |
+| 4780709000000835032_checkbox |  | checkbox | No |
+| groupid6_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000832028_checkbox |  | checkbox | No |
+| 4780709000000835051_checkbox |  | checkbox | No |
+| 4780709000000835053_checkbox |  | checkbox | No |
+| 4780709000000819031_checkbox |  | checkbox | No |
+| 4780709000000805004_checkbox |  | checkbox | No |
+| 4780709000000819033_checkbox |  | checkbox | No |
+| 4780709000000805006_checkbox |  | checkbox | No |
+| 4780709000000805008_checkbox |  | checkbox | No |
+| 4780709000000805010_checkbox |  | checkbox | No |
+| 4780709000000832026_checkbox |  | checkbox | No |
+| groupid7_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000835023_checkbox |  | checkbox | No |
+| 4780709000000835025_checkbox |  | checkbox | No |
+| 4780709000000835027_checkbox |  | checkbox | No |
+| 4780709000000832017_checkbox |  | checkbox | No |
+| groupid8_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000835002_checkbox |  | checkbox | No |
+| 4780709000000835004_checkbox |  | checkbox | No |
+| 4780709000000835006_checkbox |  | checkbox | No |
+| 4780709000000835008_checkbox |  | checkbox | No |
+| 4780709000000835010_checkbox |  | checkbox | No |
+| 4780709000000832022_checkbox |  | checkbox | No |
+| groupid9_ZC_CSBZEQ |  | checkbox | No |
+| 4780709000000797009_checkbox |  | checkbox | No |
+| 4780709000000797011_checkbox |  | checkbox | No |
+| 4780709000000835056_checkbox |  | checkbox | No |
+| 4780709000000835058_checkbox |  | checkbox | No |
+| Checkbox |  | checkbox | No |
+| wrapColsInputEl |  | checkbox | No |
+| show-hide-col-all |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| viewdel |  | checkbox | No |
+| volume |  | range | No |
+| checkbox-Date_field1-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen92 |  | text | No |
+| s2id_autogen92_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| viewSearchEl_Date_field1 |  | text | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Fuel_Quantity-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen94 |  | text | No |
+| s2id_autogen94_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Total_Fuel_Cost-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen96 |  | text | No |
+| s2id_autogen96_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Actual_Consumption-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen98 |  | text | No |
+| s2id_autogen98_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Driver-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen100 |  | text | No |
+| s2id_autogen100_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Odometer_Reading-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen102 |  | text | No |
+| s2id_autogen102_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Fuel_Price_Per_Liter-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen104 |  | text | No |
+| s2id_autogen104_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Distance_Since_Last_Fuel-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen106 |  | text | No |
+| s2id_autogen106_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| checkbox-Status-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen108 |  | text | No |
+| s2id_autogen108_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| checkbox-Consumption_Deviation-ZC_CSBZEQ |  | checkbox | No |
+| s2id_autogen110 |  | text | No |
+| s2id_autogen110_search |  | text | No |
+| zc_searchSelect |  | dropdown | No |
+| From |  | text | No |
+| To |  | text | No |
+| allowlocation |  | button | No |
+| useIconSwitch |  | checkbox | No |
+| toggleIconSwitch |  | checkbox | No |
+| saveIcons |  | button | No |
+| resetIcons |  | button | No |
+| Search... |  | text | No |
+| I have read the above conditions. |  | checkbox | No |
+| reqEmailId |  | text | No |
+| s2id_autogen2 |  | text | No |
+| s2id_autogen2_search |  | text | No |
+| supportType |  | dropdown | No |
+| Please enable edit permission to help with troubleshooting |  | checkbox | No |
+| reachusChatDescription |  | textarea | No |
+| reachUsStartChat |  | button | No |
+| zc-reachus-editaccess-enable-button |  | button | No |
+| zc-reachus-editaccess-revoke-button |  | button | No |
+| zc-reachus-screenrecord-button |  | button | No |
 
 ## Table Columns
 
@@ -183,6 +195,20 @@
 - **AddAdd (Option + Shift + N)**
 - **Submit Request**
 
+## Tips
+
+- Monitor the Avg KM/L column closely—a drop of more than 10% from your vehicle's baseline suggests a maintenance issue. Schedule a check-up immediately to prevent costly repairs.
+- Use Export regularly to build a fuel consumption history. This helps identify seasonal trends and supports budget forecasting for your fleet.
+
+## Related Pages
+
+- [Fuel Control](fuel-control.md)
+- [All Fuel Controls](all-fuel-controls.md)
+- [Fuel Entries](fuel-entries.md)
+- [All Fuel Entries](all-fuel-entries.md)
+- [Worst Vehicles Report](worst-vehicles-report.md)
+- [Cost Per KM](cost-per-km.md)
+
 ## Common Workflows
 
-_Document step-by-step workflows for this page here._
+_Add step-by-step workflows specific to your organisation here._
