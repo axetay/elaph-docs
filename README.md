@@ -142,6 +142,31 @@ Each entry is a dict with a `section` name and a list of `pages` (exact page nam
 
 ---
 
+## Masking numbers in screenshots
+
+Screenshots may contain sensitive figures (amounts, counts, IDs). Run the masking script to blur all numeric regions before publishing:
+
+```bash
+# Install system dependency (once)
+brew install tesseract        # macOS
+# apt install tesseract-ocr   # Ubuntu
+
+pip install pytesseract
+
+# Blur numbers in all screenshots (modifies files in-place)
+python3 scripts/mask_numbers.py
+
+# Preview what would be masked without touching files
+python3 scripts/mask_numbers.py --dry-run
+
+# One module only
+python3 scripts/mask_numbers.py --module garage
+```
+
+The CI workflow runs this automatically before building the docs.
+
+---
+
 ## GitHub Pages deployment
 
 Docs are deployed automatically on every push to `main` via `.github/workflows/deploy-docs.yml`.
