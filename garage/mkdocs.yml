@@ -1,5 +1,6 @@
 site_name: U-Go Garage Maintenance — User Manual
 site_description: Complete user manual for the U-Go Garage Maintenance application
+site_url: https://axetay.github.io/elaph-docs/garage/
 docs_dir: docs
 site_dir: site
 

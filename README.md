@@ -2,6 +2,8 @@
 
 Auto-generated user manuals for U-Go Zoho Creator apps, built with Playwright, Claude AI, and MkDocs Material.
 
+**Live docs:** https://axetay.github.io/elaph-docs/
+
 ## Overview
 
 Two documentation sites are generated from this repo:
@@ -137,6 +139,21 @@ HIERARCHIES = {
 ```
 
 Each entry is a dict with a `section` name and a list of `pages` (exact page names as they appear in the manifest). After editing, regenerate docs — the nav in `mkdocs.yml` is rewritten automatically.
+
+---
+
+## GitHub Pages deployment
+
+Docs are deployed automatically on every push to `main` via `.github/workflows/deploy-docs.yml`.
+
+To enable it the first time:
+1. Go to **Settings → Pages** in the GitHub repo
+2. Set **Source** to **GitHub Actions**
+3. Merge this branch to `main` — the workflow will build and publish both sites
+
+Published URLs:
+- https://axetay.github.io/elaph-docs/garage/
+- https://axetay.github.io/elaph-docs/trucking/
 
 ---
 
