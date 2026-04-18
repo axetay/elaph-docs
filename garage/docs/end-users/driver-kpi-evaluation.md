@@ -6,16 +6,8 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Fleet Management System
-- Section
 - Driver KPIs
 - Score & Bonus Calculations
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

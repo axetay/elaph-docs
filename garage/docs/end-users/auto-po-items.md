@@ -4,17 +4,6 @@
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-garage-maintenance#Form:Auto_PO_Items`
 
-## Page Sections
-
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Fleet Management System
-- Section
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-
 ## Form Fields
 
 | Field | Type | Required |

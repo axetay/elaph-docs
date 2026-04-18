@@ -6,17 +6,9 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Fleet Management System
 - SUPPLIER INFORMATION
 - SPARE PART DATA
 - FINANCIAL DATA
-- Section
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

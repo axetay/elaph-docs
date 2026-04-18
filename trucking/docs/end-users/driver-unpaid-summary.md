@@ -6,17 +6,10 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
 - Driver Unpaid Summary
 - Embed in your Website
 - Copy/Paste this code into your website
 - Use this snippet as the permalink for your form
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

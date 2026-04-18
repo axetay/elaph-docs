@@ -4,16 +4,6 @@
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Page:UGO_Trucking_Dashboard`
 
-## Page Sections
-
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-
 ## Form Fields
 
 | Field | Type | Required |

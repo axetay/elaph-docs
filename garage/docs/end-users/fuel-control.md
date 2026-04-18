@@ -6,15 +6,8 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Fleet Management System
 - Basic Info
 - Fuel Calculations Layer
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

@@ -37,7 +37,17 @@ def is_empty_page(page: dict) -> bool:
     )
 
 
-def generate_page_doc(page: dict, module: str, section: str) -> str:
+def build_noise_headings(manifest: dict, threshold: int = 3) -> set:
+    """Return heading texts that appear on more than `threshold` pages — UI chrome, not content."""
+    from collections import Counter
+    counts: Counter = Counter()
+    for page in manifest["pages"]:
+        for h in page.get("headings", []):
+            counts[h["text"]] += 1
+    return {text for text, count in counts.items() if count > threshold}
+
+
+def generate_page_doc(page: dict, module: str, section: str, noise_headings: set | None = None) -> str:
     """Generate Markdown content for a single app page."""
     lines = [f"# {page['name']}\n"]
 
@@ -54,9 +64,10 @@ def generate_page_doc(page: dict, module: str, section: str) -> str:
         lines.append("_Document step-by-step workflows for this page here._\n")
         return "\n".join(lines)
 
-    if page.get("headings"):
+    clean_headings = [h for h in page.get("headings", []) if h["text"] not in (noise_headings or set())]
+    if clean_headings:
         lines.append("## Page Sections\n")
-        for h in page["headings"]:
+        for h in clean_headings:
             lines.append(f"- {h['text']}")
         lines.append("")
 
@@ -97,6 +108,10 @@ def generate_docs(manifest_path: str, module: str) -> None:
     end_users_dir.mkdir(parents=True, exist_ok=True)
     admin_dir.mkdir(parents=True, exist_ok=True)
 
+    noise_headings = build_noise_headings(manifest)
+    if noise_headings:
+        print(f"  Filtering {len(noise_headings)} noise headings: {sorted(noise_headings)}")
+
     end_user_pages = []
     admin_pages = []
 
@@ -106,7 +121,7 @@ def generate_docs(manifest_path: str, module: str) -> None:
         is_admin = any(k in name_lower for k in ["admin", "setting", "config", "manage user", "user management", "permission"])
         section = "admin" if is_admin else "end-users"
 
-        content = generate_page_doc(page, module, section)
+        content = generate_page_doc(page, module, section, noise_headings)
         out_path = docs_dir / section / f"{slug}.md"
         out_path.write_text(content)
         flag = " [EMPTY]" if is_empty_page(page) else ""

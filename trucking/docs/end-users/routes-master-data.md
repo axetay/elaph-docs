@@ -6,9 +6,6 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
 - A. Identification
 - C. Read-only info pulled from Locations
 - D. Cross-border & border point
@@ -16,10 +13,6 @@
 - F. Equipment & limits
 - G. Pricing baseline
 - H. Admin
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

@@ -6,9 +6,6 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
 - Identification
 - Data From Job Order
 - Balance Status
@@ -23,10 +20,6 @@
 - Driver Payment Status
 - Approvals
 - For Pivot Report
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 

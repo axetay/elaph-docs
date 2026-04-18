@@ -4,17 +4,6 @@
 
 **URL:** `https://creatorapp.zoho.com/m.fahmy_ugologistics/u-go-trucking-management-system#Form:Subcontractor_Shipment_Details`
 
-## Page Sections
-
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
-- Section
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-
 ## Form Fields
 
 | Field | Type | Required |

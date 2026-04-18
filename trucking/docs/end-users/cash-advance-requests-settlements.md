@@ -6,18 +6,11 @@
 
 ## Page Sections
 
-- Upgrade to Creator 5
-- Update your subscription plan
-- UGO Trucking Management System
 - Data From Job Order
 - Requests Info
 - Requests & Approvals
 - Summary
 - Finance Audit
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
-- Introducing the New zoho Creator ui
 
 ## Form Fields
 
