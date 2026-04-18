@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+site/
+garage/site/
+trucking/site/
+scripts/garage_manifest.json
+scripts/trucking_manifest.json
