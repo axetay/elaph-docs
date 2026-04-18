@@ -1,0 +1,95 @@
+name: Deploy Docs to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install system dependencies
+        run: sudo apt-get install -y tesseract-ocr
+
+      - name: Install Python dependencies
+        run: pip install mkdocs-material pytesseract Pillow
+
+      - name: Mask numbers in screenshots
+        run: python3 scripts/mask_numbers.py
+
+      - name: Build garage docs
+        run: mkdocs build -f garage/mkdocs.yml --site-dir ../site-out/garage
+
+      - name: Build trucking docs
+        run: mkdocs build -f trucking/mkdocs.yml --site-dir ../site-out/trucking
+
+      - name: Create root landing page
+        run: |
+          mkdir -p site-out
+          cat > site-out/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <title>U-Go User Manuals</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+              body { font-family: sans-serif; max-width: 600px; margin: 80px auto; padding: 0 24px; color: #333; }
+              h1 { font-size: 1.8rem; margin-bottom: 8px; }
+              p { color: #666; margin-bottom: 40px; }
+              .cards { display: flex; gap: 20px; flex-wrap: wrap; }
+              .card { flex: 1; min-width: 220px; border: 1px solid #ddd; border-radius: 8px; padding: 24px; text-decoration: none; color: inherit; transition: box-shadow .15s; }
+              .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+              .card h2 { margin: 0 0 8px; font-size: 1.1rem; }
+              .card p { margin: 0; font-size: .9rem; }
+              .garage { border-top: 4px solid #1565c0; }
+              .trucking { border-top: 4px solid #00796b; }
+            </style>
+          </head>
+          <body>
+            <h1>U-Go User Manuals</h1>
+            <p>Select a module to open its user manual.</p>
+            <div class="cards">
+              <a class="card garage" href="garage/">
+                <h2>Garage Maintenance</h2>
+                <p>Fleet, maintenance orders, fuel, spare parts, procurement, and driver KPIs.</p>
+              </a>
+              <a class="card trucking" href="trucking/">
+                <h2>Trucking Management</h2>
+                <p>Job orders, shipments, finance, cash advances, and master data.</p>
+              </a>
+            </div>
+          </body>
+          </html>
+          EOF
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site-out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

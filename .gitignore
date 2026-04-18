@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+site/
+garage/site/
+trucking/site/
+.env
