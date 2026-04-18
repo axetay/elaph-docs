@@ -252,9 +252,6 @@ The M1 Truck Report page lets you view, filter, and manage maintenance records f
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

@@ -36,8 +36,6 @@ This page lets you register and manage individual vehicles in your fleet. You en
 | Vehicles_Type | Choose the category of this vehicle: van, truck, car, or other. | radio | No |
 | Vehicles_Type | Choose the category of this vehicle: van, truck, car, or other. | radio | No |
 | Normal Fuel Consumption (Km/L) | Enter the typical fuel efficiency for this vehicle model (kilometers per liter). This helps monitor fuel costs and performance. | text | No |
-| zc-sel2-foc-Fuel_Type |  | text | No |
-| zc-sel2-inp-Fuel_Type |  | text | No |
 | Fuel_Type | Select the fuel this vehicle uses: petrol, diesel, or alternative fuel. | text | No |
 | Latest Fuel Price | Enter the current price per liter for this vehicle's fuel type. | text | No |
 | Fuel_Vehicle | Confirm whether this vehicle uses fuel-based propulsion. | radio | No |
@@ -45,8 +43,6 @@ This page lets you register and manage individual vehicles in your fleet. You en
 | Octain ID | The octane rating or fuel specification identifier for this vehicle. | text | No |
 | UGO ID | Your company's internal identifier for this vehicle (if assigned). | text | No |
 | Date_of_Purchase |  | text | No |
-| zc-sel2-foc-Make |  | text | No |
-| zc-sel2-inp-Make |  | text | No |
 | Make | The manufacturer of the vehicle (for example, Ford, Mercedes, Volvo). | text | No |
 | Chassis Number | The unique chassis or VIN number of the vehicle. | text | No |
 | GPS_Tracker | Indicate whether this vehicle has an active GPS tracking device installed. | radio | No |
@@ -54,14 +50,10 @@ This page lets you register and manage individual vehicles in your fleet. You en
 | Year of Manufacture | The year the vehicle was built. | text | No |
 | Model | The specific model name or number from the manufacturer. | text | No |
 | Engine Number | The serial number of the engine. | text | No |
-| Upload_Vehicle_Photo |  | hidden | No |
 | uploadFile | Attach a clear photograph of the vehicle for identification and record purposes. | file | No |
 | License_Expiry_Date | The date when the vehicle's license or registration expires. | text | No |
 | Current Mileage ( Km ) |  | text | No |
-| zc-sel2-foc-Vehicle_Status |  | text | No |
-| zc-sel2-inp-Vehicle_Status |  | text | No |
 | Vehicle_Status |  | text | No |
-| Upload_License_Photo |  | hidden | No |
 | uploadFile | Attach a clear photograph of the vehicle for identification and record purposes. | file | No |
 | Notes |  | textarea | No |
 | submit |  | submit | No |
@@ -80,9 +72,6 @@ This page lets you register and manage individual vehicles in your fleet. You en
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

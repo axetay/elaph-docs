@@ -22,19 +22,13 @@ The Auto PO Items page allows you to create and manage automatic purchase orders
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
 | Auto PO Items ID |  | text | No |
-| zc-sel2-foc-Maintenance_Order_Source |  | text | No |
-| zc-sel2-inp-Maintenance_Order_Source |  | text | No |
 | Maintenance_Order_Source | Select the maintenance order or job template that requires this spare part. This links the purchase order to a specific maintenance task. | text | No |
-| zc-sel2-foc-Spare_Part |  | text | No |
-| zc-sel2-inp-Spare_Part |  | text | No |
 | Spare_Part | Search for and select the spare part you need to order. Use the search box to find parts by name or code. | text | No |
 | Required Quantity | Enter the number of units needed for this maintenance order. | text | No |
 | Supplier Name | Enter the name of the supplier or vendor you want to order from. | text | No |
 | Brand Name | Enter the brand or manufacturer name of the spare part to ensure correct ordering. | text | No |
 | Estimated Unit Price | Enter the cost per unit. The Total will calculate automatically by multiplying this by the Required Quantity. | text | No |
 | Total |  | text | No |
-| zc-sel2-foc-Status |  | text | No |
-| zc-sel2-inp-Status |  | text | No |
 | Status | Set to 'Pending' if the order is still being prepared, or 'Approved' if it is ready for procurement to process. | text | No |
 | submit |  | submit | No |
 | searchmap |  | text | No |
@@ -51,9 +45,6 @@ The Auto PO Items page allows you to create and manage automatic purchase orders
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

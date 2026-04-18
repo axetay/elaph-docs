@@ -44,9 +44,6 @@ The Open Cash Advances page allows dispatchers and finance staff to request and 
 | Please enable edit permission to help with troubleshooting | Check this box only if you want to give the support team temporary access to your request for troubleshooting purposes. | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat | Type a clear description of why you need the cash advance. Include the driver's name, trip number, or expense details so finance staff can approve it without delays. | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

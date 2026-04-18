@@ -40,6 +40,19 @@ def is_empty_page(page: dict) -> bool:
     )
 
 
+def is_user_visible_field(f: dict) -> bool:
+    label = f.get("label", "")
+    if f.get("type") == "hidden":
+        return False
+    if label.startswith("zc-"):
+        return False
+    if label.startswith("SF("):
+        return False
+    if "::" in label:
+        return False
+    return True
+
+
 def build_noise_headings(manifest: dict, threshold: int = 3) -> set:
     from collections import Counter
     counts: Counter = Counter()
@@ -103,12 +116,13 @@ def generate_page_doc(
             lines.append("")
 
         # Form fields with enriched descriptions
-        if page.get("fields"):
+        visible_fields = [f for f in page.get("fields", []) if is_user_visible_field(f)]
+        if visible_fields:
             field_descriptions = page.get("field_descriptions", {})
             lines.append("## Form Fields\n")
             lines.append("| Field | Description | Type | Required |")
             lines.append("|-------|-------------|------|----------|")
-            for f in page["fields"]:
+            for f in visible_fields:
                 desc = field_descriptions.get(f["label"], "")
                 required = "Yes" if f.get("required") else "No"
                 lines.append(f"| {f['label']} | {desc} | {f['type']} | {required} |")

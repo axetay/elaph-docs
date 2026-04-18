@@ -34,9 +34,6 @@ The UGO Trucking Dashboard Overview is your main hub for managing support reques
 | Please enable edit permission to help with troubleshooting | Check this box only if you are willing to let support staff temporarily access your account to diagnose and fix the problem. | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat | Type a clear description of your problem or question. Include relevant details like truck ID, shipment number, or what screen you were on when the issue occurred. | button | No |
-| zc-reachus-editaccess-enable-button | Click to grant support staff temporary permission to view and edit your account settings for troubleshooting purposes. | button | No |
-| zc-reachus-editaccess-revoke-button | Click to immediately remove any support staff access you previously granted. | button | No |
-| zc-reachus-screenrecord-button | Click to allow support to record your screen activity as you demonstrate the issue—this helps them understand the problem faster. | button | No |
 
 ## Actions
 

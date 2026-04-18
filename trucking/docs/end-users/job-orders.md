@@ -32,32 +32,17 @@ The Job Orders page lets you create and manage trucking jobs in the U-Go system.
 | lang-select-dropdown |  | dropdown | No |
 | Job Order ID |  | text | No |
 | Job_Date |  | text | No |
-| zc-sel2-foc-Work_Type |  | text | No |
-| zc-sel2-inp-Work_Type |  | text | No |
 | Work_Type | The type of freight service for this job (such as full container load, partial load, or special handling). Select from the dropdown list. | text | No |
-| Upload_Supported_Documents | Attach copies of required paperwork such as bills of lading, commercial invoices, or customs permits. | hidden | No |
 | uploadFile |  | file | No |
 | MBL No. | Master Bill of Lading number—the unique tracking number for the entire shipment from the shipping company. | text | No |
 | Shipping Order No. | Your internal purchase order or shipping reference number for this job. | text | No |
 | Number of Containers | The count of shipping containers (20ft or 40ft boxes) included in this job order. | text | No |
-| zc-sel2-foc-Client |  | text | No |
-| zc-sel2-inp-Client |  | text | No |
 | Client | The company or customer requesting the trucking service. Select from the dropdown. | text | No |
-| zc-sel2-foc-Subcontractor |  | text | No |
-| zc-sel2-inp-Subcontractor |  | text | No |
 | Subcontractor | The trucking company or driver assigned to perform this job. Select from approved subcontractors. | text | No |
-| zc-sel2-foc-Port_Representative |  | text | No |
-| zc-sel2-inp-Port_Representative |  | text | No |
 | Port_Representative | The contact person or agent at the port or warehouse handling this shipment. | text | No |
-| zc-sel2-foc-Origin1 |  | text | No |
-| zc-sel2-inp-Origin1 |  | text | No |
 | Origin1 | The starting location or pickup point for the shipment (warehouse, port, or facility name). | text | No |
 | Route | The planned route or corridor for this shipment (optional but helpful for tracking and planning). | text | No |
-| zc-sel2-foc-Border_Crossing |  | text | No |
-| zc-sel2-inp-Border_Crossing |  | text | No |
 | Border_Crossing | If this shipment crosses an international border, specify which crossing point will be used. | text | No |
-| zc-sel2-foc-Destination1 |  | text | No |
-| zc-sel2-inp-Destination1 |  | text | No |
 | Destination1 | The final delivery location or destination for this shipment. | text | No |
 | Distance (km) |  | text | No |
 | Planned_Pickup_Date_Time |  | text | No |
@@ -67,11 +52,7 @@ The Job Orders page lets you create and manage trucking jobs in the U-Go system.
 | Subcontractor Rate |  | text | No |
 | Actual Sell Rate |  | text | No |
 | Currency |  | text | No |
-| zc-sel2-foc-Approved_By |  | text | No |
-| zc-sel2-inp-Approved_By |  | text | No |
 | Approved_By |  | text | No |
-| zc-sel2-foc-Status |  | text | No |
-| zc-sel2-inp-Status |  | text | No |
 | Status |  | text | No |
 | submit |  | submit | No |
 | reset |  | reset | No |
@@ -89,9 +70,6 @@ The Job Orders page lets you create and manage trucking jobs in the U-Go system.
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

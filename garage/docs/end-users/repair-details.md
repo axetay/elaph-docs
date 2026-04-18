@@ -28,20 +28,13 @@ The Repair Details page is where you record information about vehicle repairs pe
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Repair_Type |  | text | No |
-| zc-sel2-inp-Repair_Type |  | text | No |
 | Repair_Type | Select the main type of repair performed (examples: engine, transmission, suspension, electrical, brakes). This helps you track which systems need the most maintenance. | text | No |
 | Problem Description | Write a brief explanation of what was wrong with the vehicle and what symptoms it showed. Be specific so mechanics can reference this in the future. | textarea | No |
-| zc-sel2-foc-Repair_Category |  | text | No |
-| zc-sel2-inp-Repair_Category |  | text | No |
 | Repair_Category | Choose a category that groups similar repairs together (examples: preventive maintenance, emergency repair, routine service). This helps you analyze maintenance patterns. | text | No |
-| zc-sel2-foc-Repair_Done_By |  | text | No |
-| zc-sel2-inp-Repair_Done_By |  | text | No |
 | Repair_Done_By | Specify whether the work was completed by your in-house mechanic or an external service center. | text | No |
 | Mechanic Name | Enter the full name of the person who performed the repair. | text | No |
 | Service Center Name | Enter the name of the garage or service facility where the work was done. | text | No |
 | Invoice Amount | Enter the total cost of the repair including labor and parts, as shown on the invoice. | text | No |
-| File_upload |  | hidden | No |
 | uploadFile | Attach a scan or photo of the invoice, receipt, or work order as proof of the repair and expense. | file | No |
 | submit |  | submit | No |
 | searchmap |  | text | No |
@@ -58,9 +51,6 @@ The Repair Details page is where you record information about vehicle repairs pe
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription | If you need support or have questions about the repair, describe your issue here and a support specialist will contact you. | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

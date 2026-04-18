@@ -26,22 +26,14 @@ The Fuel Control page lets you track and manage fuel consumption for your vehicl
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Vehicle |  | text | No |
-| zc-sel2-inp-Vehicle |  | text | No |
 | Vehicle | Select the vehicle you are recording fuel for. Choose from your registered fleet. | text | No |
 | Normal Consumption Rate | Enter the expected fuel consumption rate for this vehicle under normal operating conditions. This is used to identify unusual fuel usage patterns. | text | No |
-| SF(Fuel_Entries).FD(t::row_0_0).SV(record::status) |  | hidden | No |
-| SF(Fuel_Entries).FD(t::row_0_0).SV(ID) |  | hidden | No |
-| Fuel_Entries.t::row_0.Date_field1 |  | text | No |
-| Fuel_Entries.t::row_0.Vehicle |  | text | No |
-| Fuel_Entries.t::row_0.Driver |  | text | No |
 | #######.## |  | text | No |
 | #######.## |  | text | No |
 | #######.## |  | text | No |
 | #######.## |  | text | No |
 | #######.## |  | text | No |
 | #######.## |  | text | No |
-| Fuel_Entries.t::row_0.Status |  | text | No |
 | #######.## |  | text | No |
 | Total Liters | Automatically calculated total fuel amount for this entry. This field is read-only. | text | No |
 | Last Odometer | Enter the vehicle's odometer reading at the time of refueling. | text | No |
@@ -62,9 +54,6 @@ The Fuel Control page lets you track and manage fuel consumption for your vehicl
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

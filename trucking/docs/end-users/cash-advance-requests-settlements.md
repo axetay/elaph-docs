@@ -34,11 +34,7 @@ Use this page to request and track cash advances for trucking jobs before final 
 | Route |  | text | No |
 | Shipping Order No. |  | text | No |
 | Port Representative |  | text | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | Select the specific job order from the dropdown. Search by order number if you don't see it in the list. | text | No |
-| zc-sel2-foc-Port_Representative |  | text | No |
-| zc-sel2-inp-Port_Representative |  | text | No |
 | Port_Representative | The person at the port or client company who authorizes or confirms this advance. Use the dropdown to find their name. | text | No |
 | Selling Price | The total contract value for this shipping job. | text | No |
 | MBL No. | Master Bill of Lading number—identifies the shipment at the port. | text | No |
@@ -48,34 +44,18 @@ Use this page to request and track cash advances for trucking jobs before final 
 | Requested_Date | The date you are requesting this advance. | text | No |
 | Purpose Notes | Explain what the advance covers: fuel, tolls, port documentation fees, labor, etc. | textarea | No |
 | Advance Amount | The cash amount you need upfront. | text | No |
-| zc-sel2-foc-Currency |  | text | No |
-| zc-sel2-inp-Currency |  | text | No |
 | Currency | The currency for payment: PHP, USD, etc. | text | No |
-| zc-sel2-foc-Payment_Method |  | text | No |
-| zc-sel2-inp-Payment_Method |  | text | No |
 | Payment_Method | How you want to receive the money: bank transfer, check, cash pickup, etc. | text | No |
 | Requested By |  | text | No |
-| zc-sel2-foc-Approved_By |  | text | No |
-| zc-sel2-inp-Approved_By |  | text | No |
 | Approved_By | The manager or finance person who has authority to approve this request. | text | No |
 | Payment_Date |  | text | No |
-| zc-sel2-foc-Status |  | text | No |
-| zc-sel2-inp-Status |  | text | No |
 | Status |  | text | No |
 | Approved Amount |  | text | No |
 | Total Expenses |  | text | No |
 | Balance |  | text | No |
-| zc-sel2-foc-Settlement_Balance_Status |  | text | No |
-| zc-sel2-inp-Settlement_Balance_Status |  | text | No |
 | Settlement_Balance_Status |  | text | No |
-| zc-sel2-foc-New_Settlement |  | text | No |
-| zc-sel2-inp-New_Settlement |  | text | No |
 | New_Settlement |  | text | No |
-| zc-sel2-foc-Finance_Reviewed_By |  | text | No |
-| zc-sel2-inp-Finance_Reviewed_By |  | text | No |
 | Finance_Reviewed_By |  | text | No |
-| zc-sel2-foc-Finance_Audit_Status |  | text | No |
-| zc-sel2-inp-Finance_Audit_Status |  | text | No |
 | Finance_Audit_Status |  | text | No |
 | Finance_Review_Date |  | text | No |
 | Finance Notes |  | textarea | No |
@@ -95,9 +75,6 @@ Use this page to request and track cash advances for trucking jobs before final 
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

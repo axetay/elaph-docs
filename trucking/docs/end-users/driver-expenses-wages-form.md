@@ -39,23 +39,11 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
 | Driver Expenses & Wages ID |  | text | No |
-| zc-sel2-foc-Work_Type |  | text | No |
-| zc-sel2-inp-Work_Type |  | text | No |
 | Work_Type | Select whether this job is a domestic delivery, subcontractor assignment, or cross-border transport. This determines wage rates and expense categories. | text | No |
-| zc-sel2-foc-Container_No |  | text | No |
-| zc-sel2-inp-Container_No |  | text | No |
 | Container_No | Enter the container or load number if this delivery involves a specific container. Leave blank if not applicable. | text | No |
-| zc-sel2-foc-Domestic_Destination_Type |  | text | No |
-| zc-sel2-inp-Domestic_Destination_Type |  | text | No |
 | Domestic_Destination_Type | Select the destination category (city, port, warehouse, etc.) for domestic jobs only. | text | No |
-| zc-sel2-foc-Subcontractor_Destination_Type |  | text | No |
-| zc-sel2-inp-Subcontractor_Destination_Type |  | text | No |
 | Subcontractor_Destination_Type | Select the destination category for work assigned through subcontractors. | text | No |
-| zc-sel2-foc-Cross_Border_Destination_Type |  | text | No |
-| zc-sel2-inp-Cross_Border_Destination_Type |  | text | No |
 | Cross_Border_Destination_Type | Select the destination category for deliveries crossing national borders. | text | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | Search for and select the job order number. This links the expense to the correct billing and route record. | text | No |
 | Job_Order_Date |  | text | No |
 | Vehicle No. |  | text | No |
@@ -65,24 +53,14 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 | Driver Name |  | text | No |
 | Consumption Rate | This is the standard fuel cost per liter. The system uses this to calculate total fuel expenses. | text | No |
 | Fuel Cost ( EGP ) | The system calculates this automatically based on distance, consumption rate, and fuel price. Verify the amount before submitting. | text | No |
-| zc-sel2-foc-Route_Name |  | text | No |
-| zc-sel2-inp-Route_Name |  | text | No |
 | Route_Name | The route name auto-populates when you select a Job Order. Do not edit unless correcting an error. | text | No |
 | Advance Amount |  | text | No |
 | Fuel Price |  | text | No |
-| SF(Driver_Trip_Expenses).FD(t::row_0_0).SV(record::status) |  | hidden | No |
-| SF(Driver_Trip_Expenses).FD(t::row_0_0).SV(ID) |  | hidden | No |
-| Driver_Trip_Expenses.t::row_0.Expense_Category |  | text | No |
-| Driver_Trip_Expenses.t::row_0.Expense_Description |  | text | No |
 | #,###,###.## |  | text | No |
-| Driver_Trip_Expenses.t::row_0.Receipt_Upload |  | hidden | No |
 | uploadFile |  | file | No |
-| Driver_Trip_Expenses.t::row_0.Expense_Date |  | text | No |
 | All Driver Expenses |  | text | No |
 | Balance |  | text | No |
 | Yes |  | checkbox | No |
-| zc-sel2-foc-Shipment_Container |  | text | No |
-| zc-sel2-inp-Shipment_Container |  | text | No |
 | Shipment_Container |  | text | No |
 | Driver_Assistant |  | radio | No |
 | Driver_Assistant |  | radio | No |
@@ -95,8 +73,6 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 | Driver Assistant Fee |  | text | No |
 | Overnight Fees |  | text | No |
 | Total Driver Wages |  | text | No |
-| zc-sel2-foc-Destination |  | text | No |
-| zc-sel2-inp-Destination |  | text | No |
 | Destination |  | text | No |
 | Driver Assistant Name |  | text | No |
 | Rerouting |  | radio | No |
@@ -122,11 +98,7 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 | Paid_Status |  | radio | No |
 | Paid_Status |  | radio | No |
 | Date_of_Payment |  | text | No |
-| zc-sel2-foc-Garage_Supervisor_Approval |  | text | No |
-| zc-sel2-inp-Garage_Supervisor_Approval |  | text | No |
 | Garage_Supervisor_Approval |  | text | No |
-| zc-sel2-foc-Finance_Audit_Approval |  | text | No |
-| zc-sel2-inp-Finance_Audit_Approval |  | text | No |
 | Finance_Audit_Approval |  | text | No |
 | Final Driver Payable Amount |  | text | No |
 | Driver Amount to Pay |  | text | No |
@@ -147,9 +119,6 @@ The Driver Expenses & Wages Form records fuel costs, vehicle usage, and route de
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

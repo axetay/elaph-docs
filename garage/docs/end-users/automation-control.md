@@ -37,9 +37,6 @@ The Automation Control page lets garage maintenance staff set up and manage auto
 | Please enable edit permission to help with troubleshooting | Check this box only if you give support staff temporary access to view and edit settings in your account to diagnose problems. | checkbox | No |
 | reachusChatDescription | Briefly describe your issue or what you need help with — include specific error messages or what you were doing when the problem occurred. | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

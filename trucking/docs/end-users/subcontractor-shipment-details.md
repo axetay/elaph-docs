@@ -21,25 +21,13 @@ This page lets you record and manage shipment details for subcontractors working
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | Select the job number this subcontractor shipment is assigned to. This links the shipment to your main job record. | text | No |
-| zc-sel2-foc-Destination_Type |  | text | No |
-| zc-sel2-inp-Destination_Type |  | text | No |
 | Destination_Type | Select where this shipment is going—choose from your standard destination categories (warehouse, customer location, distribution center, etc.). | text | No |
-| zc-sel2-foc-Subcontractor_Shipment_Type |  | text | No |
-| zc-sel2-inp-Subcontractor_Shipment_Type |  | text | No |
 | Subcontractor_Shipment_Type | Indicate the shipment classification, such as full truckload, partial load, or expedited delivery. | text | No |
 | Subcontractor Goods Description | Write a clear description of what's being shipped (for example, 'Auto parts—engines and transmissions' or 'Food products—frozen vegetables'). Be specific for tracking purposes. | textarea | No |
 | Subcontractor Total Weight | Enter the total weight of all goods in this shipment in pounds or kilograms. Check the scale receipt or bill of lading. | text | No |
-| zc-sel2-foc-Subcontractor_Assigned_Vehicle |  | text | No |
-| zc-sel2-inp-Subcontractor_Assigned_Vehicle |  | text | No |
 | Subcontractor_Assigned_Vehicle | Select the truck or vehicle that will carry this shipment from your available fleet. | text | No |
-| zc-sel2-foc-Subcontractor_Assigned_Trailer |  | text | No |
-| zc-sel2-inp-Subcontractor_Assigned_Trailer |  | text | No |
 | Subcontractor_Assigned_Trailer | Select the trailer attached to the vehicle for this shipment. | text | No |
-| zc-sel2-foc-Subcontractor_Assigned_Driver |  | text | No |
-| zc-sel2-inp-Subcontractor_Assigned_Driver |  | text | No |
 | Subcontractor_Assigned_Driver | Select the driver assigned to operate this shipment. | text | No |
 | Subcontractor Driver Cash Advance | Enter the dollar amount of cash given to the driver for fuel, tolls, or other trip expenses (if applicable). | text | No |
 | Subcontractor Cash Advance Paid by | Note who provided the cash advance—your company, the subcontractor, or another party. | text | No |
@@ -59,9 +47,6 @@ This page lets you record and manage shipment details for subcontractors working
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

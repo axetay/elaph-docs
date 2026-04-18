@@ -28,27 +28,16 @@ This page manages spare part transactions records.
 | Supplier Name |  | text | No |
 | Supplier Phone / Mobile |  | tel | No |
 | Brand |  | text | No |
-| zc-sel2-foc-Spare_Part |  | text | No |
-| zc-sel2-inp-Spare_Part |  | text | No |
 | Spare_Part |  | text | No |
-| zc-sel2-foc-Spare_Part_Condition |  | text | No |
-| zc-sel2-inp-Spare_Part_Condition |  | text | No |
 | Spare_Part_Condition |  | text | No |
 | Spare Part Number |  | text | No |
 | Unit Price |  | text | No |
-| File_upload |  | hidden | No |
 | uploadFile |  | file | No |
 | Quantity |  | text | No |
 | Total Value |  | text | No |
 | Old Trans Quantity |  | text | No |
-| zc-sel2-foc-Maintenance_Order |  | text | No |
-| zc-sel2-inp-Maintenance_Order |  | text | No |
 | Maintenance_Order |  | text | No |
-| zc-sel2-foc-Stock_Batch |  | text | No |
-| zc-sel2-inp-Stock_Batch |  | text | No |
 | Stock_Batch |  | text | No |
-| zc-sel2-foc-Transaction_Type |  | text | No |
-| zc-sel2-inp-Transaction_Type |  | text | No |
 | Transaction_Type |  | text | No |
 | submit |  | submit | No |
 | searchmap |  | text | No |
@@ -65,9 +54,6 @@ This page manages spare part transactions records.
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

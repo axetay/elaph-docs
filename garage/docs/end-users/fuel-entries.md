@@ -18,11 +18,7 @@ This page manages fuel entries records.
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
 | Date_field1 |  | text | No |
-| zc-sel2-foc-Vehicle |  | text | No |
-| zc-sel2-inp-Vehicle |  | text | No |
 | Vehicle |  | text | No |
-| zc-sel2-foc-Driver |  | text | No |
-| zc-sel2-inp-Driver |  | text | No |
 | Driver |  | text | No |
 | Odometer Reading |  | text | No |
 | Fuel Quantity |  | text | No |
@@ -30,8 +26,6 @@ This page manages fuel entries records.
 | Total Fuel Cost |  | text | No |
 | Distance Since Last Fuel |  | text | No |
 | Actual Consumption |  | text | No |
-| zc-sel2-foc-Status |  | text | No |
-| zc-sel2-inp-Status |  | text | No |
 | Status |  | text | No |
 | Consumption Deviation |  | text | No |
 | submit |  | submit | No |
@@ -49,9 +43,6 @@ This page manages fuel entries records.
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

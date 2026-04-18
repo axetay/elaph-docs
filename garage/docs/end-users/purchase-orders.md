@@ -31,30 +31,14 @@ The Purchase Orders page allows you to create and manage purchase orders for veh
 | Purchase_Order_Type |  | radio | No |
 | Notes | Add any special instructions, delivery requirements, or details about this order that the supplier should know | textarea | No |
 | PO_Date | The date this purchase order is created; this date is used for record-keeping and supplier communication | text | No |
-| zc-sel2-foc-Status |  | text | No |
-| zc-sel2-inp-Status |  | text | No |
 | Status | Displays the current stage of the purchase order (Draft, Submitted, Approved, Ordered, Received, etc.) | text | No |
-| SF(Purchase_Order_Items).FD(t::row_0_0).SV(record::status) |  | hidden | No |
-| SF(Purchase_Order_Items).FD(t::row_0_0).SV(ID) |  | hidden | No |
-| Purchase_Order_Items.t::row_0.Auto_PO_Items_ID |  | text | No |
-| Purchase_Order_Items.t::row_0.Maintenance_Order_Source |  | text | No |
-| Purchase_Order_Items.t::row_0.Spare_Part |  | text | No |
-| ####### |  | text | No |
-| Purchase_Order_Items.t::row_0.Supplier_Name |  | text | No |
-| Purchase_Order_Items.t::row_0.Brand_Name |  | text | No |
 | ####### |  | text | No |
 | ####### |  | text | No |
-| SF(Manual_Purchase_Order_Items).FD(t::row_0_0).SV(record::status) |  | hidden | No |
-| SF(Manual_Purchase_Order_Items).FD(t::row_0_0).SV(ID) |  | hidden | No |
-| Manual_Purchase_Order_Items.t::row_0.Spare_Part |  | text | No |
 | ####### |  | text | No |
-| Manual_Purchase_Order_Items.t::row_0.Supplier_Name |  | text | No |
-| Manual_Purchase_Order_Items.t::row_0.Brand_Name |  | text | No |
+| ####### |  | text | No |
 | ####### |  | text | No |
 | ####### |  | text | No |
 | Total PO Cost | The combined cost of all items in this purchase order; system calculates this automatically | text | No |
-| zc-sel2-foc-Approved_By |  | text | No |
-| zc-sel2-inp-Approved_By |  | text | No |
 | Approved_By | Select the person responsible for approving this purchase order before it goes to the supplier | text | No |
 | Finance_Approval_Date |  | text | No |
 | Approval |  | radio | No |
@@ -74,9 +58,6 @@ The Purchase Orders page allows you to create and manage purchase orders for veh
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

@@ -17,16 +17,10 @@ This page manages request spare parts records.
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Vehicle_Model |  | text | No |
-| zc-sel2-inp-Vehicle_Model |  | text | No |
 | Vehicle_Model |  | text | No |
-| zc-sel2-foc-Spare_Part_Needed |  | text | No |
-| zc-sel2-inp-Spare_Part_Needed |  | text | No |
 | Spare_Part_Needed |  | text | No |
 | Quantity Needed |  | text | No |
 | Stock Quantity |  | text | No |
-| zc-sel2-foc-Stock_Status |  | text | No |
-| zc-sel2-inp-Stock_Status |  | text | No |
 | Stock_Status |  | text | No |
 | Total Price |  | text | No |
 | Shortage Quantity |  | text | No |
@@ -39,18 +33,10 @@ This page manages request spare parts records.
 | Quantity Batch 1 |  | text | No |
 | Quantity Batch 2 |  | text | No |
 | Quantity Batch 3 |  | text | No |
-| zc-sel2-foc-Old_Spare_Part_Needed |  | text | No |
-| zc-sel2-inp-Old_Spare_Part_Needed |  | text | No |
 | Old_Spare_Part_Needed |  | text | No |
 | Live_Total_Engine |  | text | No |
-| zc-sel2-foc-Batch_1_Stock_ID |  | text | No |
-| zc-sel2-inp-Batch_1_Stock_ID |  | text | No |
 | Batch_1_Stock_ID |  | text | No |
-| zc-sel2-foc-Batch_2_Stock_ID |  | text | No |
-| zc-sel2-inp-Batch_2_Stock_ID |  | text | No |
 | Batch_2_Stock_ID |  | text | No |
-| zc-sel2-foc-Batch_3_Stock_ID |  | text | No |
-| zc-sel2-inp-Batch_3_Stock_ID |  | text | No |
 | Batch_3_Stock_ID |  | text | No |
 | Yes |  | checkbox | No |
 | No |  | checkbox | No |
@@ -69,9 +55,6 @@ This page manages request spare parts records.
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

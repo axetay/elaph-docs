@@ -31,35 +31,24 @@ The Routes Master Data page lets you create and manage trucking routes in the U-
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Origin |  | text | No |
-| zc-sel2-inp-Origin |  | text | No |
 | Origin | The starting location for the route. Type the city or facility name and select from the dropdown list. | text | No |
 | Route Name | A clear, short name for this route (for example, 'London to Manchester Hub'). Use consistent naming so dispatchers can quickly find routes. | text | No |
-| zc-sel2-foc-Destination |  | text | No |
-| zc-sel2-inp-Destination |  | text | No |
 | Destination | The ending location for the route. Type the city or facility name and select from the dropdown list. | text | No |
 | Origin Type | The category of the origin location (for example, warehouse, port, distribution center). This auto-populates based on your Origin entry. | text | No |
 | Destination Type | The category of the destination location. This auto-populates based on your Destination entry. | text | No |
 | Origin Country |  | text | No |
 | Destination Country |  | text | No |
 | Yes |  | checkbox | No |
-| zc-sel2-foc-Border_Crossing |  | text | No |
-| zc-sel2-inp-Border_Crossing |  | text | No |
 | Border_Crossing | If this route crosses an international border, enter the border crossing point here (for example, 'Dover-Calais'). Leave blank for domestic routes. | text | No |
 | Distance (km) | The total distance of the route in kilometers. Enter the actual road distance, not as the crow flies. | text | No |
 | Avg Speed (km/h) | The average expected speed for trucks on this route, accounting for traffic, road conditions, and speed limits. | text | No |
 | Std Transit Hours | The expected number of hours for a truck to complete this route under normal conditions. | text | No |
 | Std Transit Days | The expected number of days needed, useful for longer routes or when accounting for overnight stops and rest periods. | text | No |
-| zc-sel2-inp-Allowed_Truck_Types |  | text | No |
 | Allowed_Truck_Types | Select which truck types are permitted on this route (for example, articulated, rigid, flatbed). Use this to enforce safety and regulatory requirements. | text | No |
 | Max Gross Weight (tons) | The maximum weight limit for vehicles on this route. Check local regulations and road restrictions before entering. | text | No |
 | Permit / Axle Notes | Any special notes about permits, axle restrictions, or regulatory requirements for this route. For example, 'Oversized loads require permit' or 'HGV bans Sundays 0000-0600'. | textarea | No |
 | Base Rate | The base freight charge for this route. Enter the numeric value only. | text | No |
-| zc-sel2-foc-Rate_Basis |  | text | No |
-| zc-sel2-inp-Rate_Basis |  | text | No |
 | Rate_Basis | How the base rate is calculated (for example, per kilometer, per ton, per load, per pallet). Select from the dropdown. | text | No |
-| zc-sel2-foc-Currency |  | text | No |
-| zc-sel2-inp-Currency |  | text | No |
 | Currency | The currency for the base rate (for example, GBP, EUR, USD). Select from the dropdown. | text | No |
 | Yes |  | checkbox | No |
 | No |  | checkbox | No |
@@ -80,9 +69,6 @@ The Routes Master Data page lets you create and manage trucking routes in the U-
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

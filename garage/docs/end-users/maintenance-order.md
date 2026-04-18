@@ -27,33 +27,16 @@ The Maintenance Order page lets you create and manage vehicle maintenance record
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
 | Maintenance ID |  | text | No |
-| zc-sel2-foc-Vehicles |  | text | No |
-| zc-sel2-inp-Vehicles |  | text | No |
 | Vehicles | Select the specific vehicle ID or plate number that requires maintenance. Use the dropdown to search if you have many vehicles. | text | No |
-| zc-sel2-foc-Driver_Name |  | text | No |
-| zc-sel2-inp-Driver_Name |  | text | No |
 | Driver_Name | Enter or select the driver currently assigned to this vehicle. | text | No |
-| zc-sel2-foc-Type_of_Maintenance |  | text | No |
-| zc-sel2-inp-Type_of_Maintenance |  | text | No |
 | Type_of_Maintenance | Choose from preset options like preventive maintenance, repairs, inspections, or emergency service. | text | No |
 | Maintenance_Date |  | text | No |
-| zc-sel2-foc-Type_of_Vehicle |  | text | No |
-| zc-sel2-inp-Type_of_Vehicle |  | text | No |
 | Type_of_Vehicle | Select the vehicle category (truck, van, car, etc.) — this may auto-fill based on your vehicle selection. | text | No |
 | Current Odometer ( Km ) | Record the odometer reading in kilometers at the time of maintenance. This helps track service intervals. | text | No |
-| zc-sel2-foc-Type_of_Scheduled_Maintenance |  | text | No |
-| zc-sel2-inp-Type_of_Scheduled_Maintenance |  | text | No |
 | Type_of_Scheduled_Maintenance | Indicate if this is routine scheduled service or unplanned maintenance. | text | No |
-| SF(Request_Spare_Parts).FD(t::row_0_0).SV(record::status) |  | hidden | No |
-| SF(Request_Spare_Parts).FD(t::row_0_0).SV(ID) |  | hidden | No |
-| Request_Spare_Parts.t::row_0.Vehicle_Model |  | text | No |
-| Request_Spare_Parts.t::row_0.Spare_Part_Needed |  | text | No |
 | ####### |  | text | No |
-| Request_Spare_Parts.t::row_0.Stock_Quantity |  | text | No |
-| Request_Spare_Parts.t::row_0.Stock_Status |  | text | No |
 | #######.## |  | text | No |
 | ####### |  | text | No |
-| Request_Spare_Parts.t::row_0.Notes |  | text | No |
 | ####### |  | text | No |
 | ####### |  | text | No |
 | ####### |  | text | No |
@@ -62,14 +45,7 @@ The Maintenance Order page lets you create and manage vehicle maintenance record
 | ####### |  | text | No |
 | ####### |  | text | No |
 | ####### |  | text | No |
-| Request_Spare_Parts.t::row_0.Old_Spare_Part_Needed |  | text | No |
 | #######.## |  | text | No |
-| Request_Spare_Parts.t::row_0.Batch_1_Stock_ID |  | text | No |
-| Request_Spare_Parts.t::row_0.Batch_2_Stock_ID |  | text | No |
-| Request_Spare_Parts.t::row_0.Batch_3_Stock_ID |  | text | No |
-| Request_Spare_Parts.t::row_0.Stock_Consumed |  | text | No |
-| zc-sel2-foc-Maintenance_Status |  | text | No |
-| zc-sel2-inp-Maintenance_Status |  | text | No |
 | Maintenance_Status |  | text | No |
 | Total Spare Parts Cost |  | text | No |
 | Total Invoices Amount |  | text | No |
@@ -90,9 +66,6 @@ The Maintenance Order page lets you create and manage vehicle maintenance record
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

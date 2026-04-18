@@ -21,28 +21,14 @@ The Domestic Shipment Details page lets you record and manage all information fo
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | The reference number for this shipment. Enter the existing job order number or leave blank if creating a new one. | text | No |
-| zc-sel2-foc-Destination_Type |  | text | No |
-| zc-sel2-inp-Destination_Type |  | text | No |
 | Destination_Type | Choose the delivery pattern: single destination, multiple delivery points, or hub-based delivery. This helps plan the route. | text | No |
-| zc-sel2-foc-Domestic_Shipment_Type |  | text | No |
-| zc-sel2-inp-Domestic_Shipment_Type |  | text | No |
 | Domestic_Shipment_Type | Select the cargo category (full load, partial load, less than truck load, etc.) to determine pricing and vehicle assignment. | text | No |
 | Domestic Goods Description | Describe what is being shipped (for example, packaged goods, machinery, pallets, etc.). Include any special handling needs. | textarea | No |
 | Domestic Total Weight | Enter the total weight of the shipment in the unit your company uses (pounds or kilograms). Verify this matches the vehicle capacity. | text | No |
-| zc-sel2-foc-Domestic_Truck_Source |  | text | No |
-| zc-sel2-inp-Domestic_Truck_Source |  | text | No |
 | Domestic_Truck_Source | Specify where the vehicle comes from: company fleet, subcontracted carrier, or partner company. | text | No |
-| zc-sel2-foc-Domestic_Assigned_Vehicle |  | text | No |
-| zc-sel2-inp-Domestic_Assigned_Vehicle |  | text | No |
 | Domestic_Assigned_Vehicle | Select the company truck assigned to haul this shipment. Only appears if using a company vehicle. | text | No |
-| zc-sel2-foc-Domestic_Assigned_Trailer |  | text | No |
-| zc-sel2-inp-Domestic_Assigned_Trailer |  | text | No |
 | Domestic_Assigned_Trailer | Select the trailer attached to the vehicle. Match trailers to the goods type and weight. | text | No |
-| zc-sel2-foc-Domestic_Assigned_Driver |  | text | No |
-| zc-sel2-inp-Domestic_Assigned_Driver |  | text | No |
 | Domestic_Assigned_Driver | Select the company driver assigned to this shipment. Only appears if using a company driver. | text | No |
 | Buy Rate of Subcontracted Vehicle | Enter the cost per mile or fixed rate you will pay the subcontractor for this shipment. | text | No |
 | Domestic Subcontracted Vehicle | Enter the subcontractor's vehicle details (company name and truck number) if not using a company vehicle. | text | No |
@@ -63,9 +49,6 @@ The Domestic Shipment Details page lets you record and manage all information fo
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

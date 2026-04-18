@@ -43,9 +43,6 @@ The Driver Unpaid Summary page helps you review and manage outstanding payments 
 | Please enable edit permission to help with troubleshooting | Check this box only if you want to allow the support team temporary access to edit your data while troubleshooting a payment issue. | checkbox | No |
 | reachusChatDescription | Describe your question or issue in detail so the support team understands exactly what you need help with. | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button | Click to grant support staff temporary permission to access and edit your data during troubleshooting. | button | No |
-| zc-reachus-editaccess-revoke-button | Click to immediately remove any temporary access you granted to support staff. | button | No |
-| zc-reachus-screenrecord-button | Click to allow support to record your screen, which helps them see the exact issue you're experiencing. | button | No |
 
 ## Actions
 

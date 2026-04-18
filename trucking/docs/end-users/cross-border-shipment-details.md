@@ -21,34 +21,18 @@ This page captures all details for a shipment that crosses international borders
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | Unique identifier for this shipment job. Select an existing order or enter a new one to link all cross-border details to the correct shipment. | text | No |
-| zc-sel2-foc-Destination_Type |  | text | No |
-| zc-sel2-inp-Destination_Type |  | text | No |
 | Destination_Type | Category describing where the load ends (for example: port, distribution center, customer warehouse). Helps with route planning and documentation. | text | No |
-| zc-sel2-foc-Cross_Border_Trailer_Type |  | text | No |
-| zc-sel2-inp-Cross_Border_Trailer_Type |  | text | No |
 | Cross_Border_Trailer_Type | The type of trailer required for this shipment (for example: dry van, refrigerated, flatbed, tanker). Must match your cargo requirements and cross-border regulations. | text | No |
 | Cross Border Goods Description | Detailed description of what is being transported. Include item names, quantities, and any special handling notes needed for customs clearance. | textarea | No |
-| zc-sel2-foc-Cross_Border_Truck_Source |  | text | No |
-| zc-sel2-inp-Cross_Border_Truck_Source |  | text | No |
 | Cross_Border_Truck_Source | Indicates whether the vehicle is company-owned or subcontracted. This determines which cost fields to complete. | text | No |
-| zc-sel2-foc-Cross_Border_Assigned_Vehicle |  | text | No |
-| zc-sel2-inp-Cross_Border_Assigned_Vehicle |  | text | No |
 | Cross_Border_Assigned_Vehicle | The truck or tractor unit assigned to this shipment. Select from your fleet or leave blank if using a subcontractor. | text | No |
-| zc-sel2-foc-Cross_Border_Assigned_Trailer |  | text | No |
-| zc-sel2-inp-Cross_Border_Assigned_Trailer |  | text | No |
 | Cross_Border_Assigned_Trailer | The specific trailer unit assigned to haul the load. Ensure it is the correct type for the goods. | text | No |
-| zc-sel2-foc-Cross_Border_Assigned_Driver |  | text | No |
-| zc-sel2-inp-Cross_Border_Assigned_Driver |  | text | No |
 | Cross_Border_Assigned_Driver | The driver assigned to operate the vehicle. Must have valid cross-border credentials and documentation. | text | No |
 | Buy Rate of Subcontracted Vehicle | The agreed cost per mile or per job paid to the subcontractor. Enter only if using external carrier. | text | No |
 | Cross Border Sub Contracted Vehicle | License plate or vehicle ID of the subcontracted truck. Required if the vehicle is not company-owned. | text | No |
 | Cross Border Subcontracted Driver | Name and license information of the hired driver. Include contact details and any special certifications needed. | textarea | No |
 | Cross Border Driver Cash Advance | Cash amount given to the driver before departure for tolls, fuel, meals, or other cross-border expenses. | text | No |
-| zc-sel2-foc-Cross_Border_Cash_Advance_Currency |  | text | No |
-| zc-sel2-inp-Cross_Border_Cash_Advance_Currency |  | text | No |
 | Cross_Border_Cash_Advance_Currency | The currency for the cash advance (USD, CAD, MXN, etc.). Important for reimbursement and accounting. | text | No |
 | Cross Border Cash Advance Paid by |  | text | No |
 | Cross Border Shipment Notes |  | textarea | No |
@@ -67,9 +51,6 @@ This page captures all details for a shipment that crosses international borders
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

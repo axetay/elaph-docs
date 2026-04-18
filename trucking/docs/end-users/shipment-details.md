@@ -21,41 +21,23 @@ The Shipment Details page lets you record and manage the complete information fo
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Job_Order |  | text | No |
-| zc-sel2-inp-Job_Order |  | text | No |
 | Job_Order | Links this shipment to a specific job order. Leave blank if this is not tied to a job order. | text | No |
 | Container No. | The identification number printed on the shipping container. | text | No |
 | Container_Assigned | Check this box once a physical container has been assigned and allocated to this shipment. | checkbox | No |
-| zc-sel2-foc-Container_Type_Size |  | text | No |
-| zc-sel2-inp-Container_Type_Size |  | text | No |
 | Container_Type_Size | The dimensions and type of container (for example, 20ft standard, 40ft high cube). | text | No |
 | Seal No. | The unique seal number applied to the container for security and tracking purposes. | text | No |
-| zc-sel2-foc-Shipment_Type |  | text | No |
-| zc-sel2-inp-Shipment_Type |  | text | No |
 | Shipment_Type | The category of shipment (for example, Full Container Load, Less Than Container Load, or breakbulk). | text | No |
 | Goods Description | A detailed description of what is being shipped—include the commodity type, any special handling requirements, and hazard classifications if applicable. | textarea | No |
 | Weight (tons) | The total weight of all cargo in the shipment, measured in metric tons. | text | No |
-| zc-sel2-foc-Truck_Source |  | text | No |
-| zc-sel2-inp-Truck_Source |  | text | No |
 | Truck_Source | Where the truck originates from (for example, company fleet, external partner, or subcontractor). | text | No |
-| zc-sel2-foc-Assigned_Vehicle |  | text | No |
-| zc-sel2-inp-Assigned_Vehicle |  | text | No |
 | Assigned_Vehicle | The truck or vehicle number assigned to haul this shipment. | text | No |
-| zc-sel2-foc-Assigned_Trailer |  | text | No |
-| zc-sel2-inp-Assigned_Trailer |  | text | No |
 | Assigned_Trailer | The trailer number attached to the vehicle for this shipment. | text | No |
-| zc-sel2-foc-Assigned_Driver |  | text | No |
-| zc-sel2-inp-Assigned_Driver |  | text | No |
 | Assigned_Driver | The name or ID of the driver assigned to operate this shipment. | text | No |
 | Buy Rate of Subcontracted Vehicle | The cost per shipment or per ton if using a subcontracted vehicle; leave blank for company fleet vehicles. | text | No |
 | Subcontractor Vehicle Number | The license plate or vehicle ID number if the shipment is being hauled by a subcontractor's vehicle. | text | No |
 | Subcontractor Driver Name & Contact | The full name, phone number, and email of the subcontractor's driver for this shipment. | textarea | No |
 | Driver Cash In Advance |  | text | No |
-| zc-sel2-foc-Currency |  | text | No |
-| zc-sel2-inp-Currency |  | text | No |
 | Currency |  | text | No |
-| zc-sel2-foc-Paid_By |  | text | No |
-| zc-sel2-inp-Paid_By |  | text | No |
 | Paid_By |  | text | No |
 | submit |  | submit | No |
 | reset |  | reset | No |
@@ -73,9 +55,6 @@ The Shipment Details page lets you record and manage the complete information fo
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

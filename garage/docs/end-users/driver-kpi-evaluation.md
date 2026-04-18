@@ -26,14 +26,8 @@ This page allows supervisors and managers to evaluate driver performance across 
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Driver |  | text | No |
-| zc-sel2-inp-Driver |  | text | No |
 | Driver | The name of the driver being evaluated. Click or type to search and select from your fleet roster. | text | No |
-| zc-sel2-foc-Evaluation_Month |  | text | No |
-| zc-sel2-inp-Evaluation_Month |  | text | No |
 | Evaluation_Month | The month and year for which you are submitting this performance review. Select from the calendar dropdown. | text | No |
-| zc-sel2-foc-Evaluated_by |  | text | No |
-| zc-sel2-inp-Evaluated_by |  | text | No |
 | Evaluated_by | Your name or the name of the supervisor conducting this evaluation. This identifies who is responsible for the assessment. | text | No |
 | Fuel_Efficiency | Rate the driver's fuel consumption against company benchmarks. Select from the available rating options (typically ranging from poor to excellent). | radio | No |
 | Fuel_Efficiency | Rate the driver's fuel consumption against company benchmarks. Select from the available rating options (typically ranging from poor to excellent). | radio | No |
@@ -88,9 +82,6 @@ This page allows supervisors and managers to evaluate driver performance across 
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

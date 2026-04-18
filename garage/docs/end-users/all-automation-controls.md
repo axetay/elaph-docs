@@ -53,9 +53,6 @@ The All Automation Controls page lets you manage scheduled maintenance tasks and
 | Please enable edit permission to help with troubleshooting | Check this box to allow support staff temporary access to modify your automation settings while diagnosing problems | checkbox | No |
 | reachusChatDescription | Describe any issues or questions about your automation setup that you want to discuss with support | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Table Columns
 

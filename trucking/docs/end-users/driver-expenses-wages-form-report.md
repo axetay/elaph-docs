@@ -26,7 +26,6 @@ The Driver Expenses & Wages Form Report lets you view, filter, and manage driver
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| saveType |  | hidden | No |
 | savereport |  | radio | No |
 | savereport |  | radio | No |
 | viewName | Enter a custom name for this report view if you want to save it for future use. | text | No |
@@ -347,9 +346,6 @@ The Driver Expenses & Wages Form Report lets you view, filter, and manage driver
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 

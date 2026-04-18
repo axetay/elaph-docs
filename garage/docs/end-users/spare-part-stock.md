@@ -21,15 +21,11 @@ The Spare Part Stock page lets you record and track inventory for vehicle mainte
 | Field | Description | Type | Required |
 |-------|-------------|------|----------|
 | lang-select-dropdown |  | dropdown | No |
-| zc-sel2-foc-Spare_Part |  | text | No |
-| zc-sel2-inp-Spare_Part |  | text | No |
 | Spare_Part |  | text | No |
 | Quantity In | The number of units received in this stock delivery or purchase. | text | No |
 | Quantity Remaining | How many units of this part are currently available for use. | text | No |
 | Unit Cost | The price paid per single unit of this part. Used to calculate total stock value. | text | No |
 | Batch_Date | The date this batch of parts was received or purchased. | text | No |
-| zc-sel2-foc-Source |  | text | No |
-| zc-sel2-inp-Source |  | text | No |
 | Source | The supplier or vendor who provided these parts (e.g., 'ABC Parts Ltd', 'Direct Manufacturer'). | text | No |
 | Notes | Any additional information about the parts, such as condition, storage location, or special handling instructions. | textarea | No |
 | submit |  | submit | No |
@@ -47,9 +43,6 @@ The Spare Part Stock page lets you record and track inventory for vehicle mainte
 | Please enable edit permission to help with troubleshooting |  | checkbox | No |
 | reachusChatDescription |  | textarea | No |
 | reachUsStartChat |  | button | No |
-| zc-reachus-editaccess-enable-button |  | button | No |
-| zc-reachus-editaccess-revoke-button |  | button | No |
-| zc-reachus-screenrecord-button |  | button | No |
 
 ## Actions
 
