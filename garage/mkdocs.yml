@@ -1,0 +1,28 @@
+site_name: U-Go Garage Maintenance — User Manual
+site_description: Complete user manual for the U-Go Garage Maintenance application
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - End Users:
+      - end-users/dashboard.md
+  - Admin:
+      - admin/overview.md
