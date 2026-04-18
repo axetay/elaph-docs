@@ -23,6 +23,35 @@ plugins:
 nav:
   - Home: index.md
   - End Users:
-      - end-users/dashboard.md
+      - 'UGO Trucking Dashboard': end-users/ugo-trucking-dashboard.md
+      - 'Job Orders': end-users/job-orders.md
+      - 'All Job Orders': end-users/all-job-orders.md
+      - 'Import / Export Job Orders': end-users/import-export-job-orders.md
+      - 'Domestic Job Orders': end-users/domestic-job-orders.md
+      - 'Subcontractor Job Orders': end-users/subcontractor-job-orders.md
+      - 'Cross Border Job Orders': end-users/cross-border-job-orders.md
+      - 'Cash Advance Requests & Settlements': end-users/cash-advance-requests-settlements.md
+      - 'All Cash Advance Requests & Settlements': end-users/all-cash-advance-requests-settlements.md
+      - 'Open Cash Advances': end-users/open-cash-advances.md
+      - 'Unsettled Cash Advances': end-users/unsettled-cash-advances.md
+      - 'Driver Expenses & Wages Form': end-users/driver-expenses-wages-form.md
+      - 'Driver Expenses & Wages Form Report': end-users/driver-expenses-wages-form-report.md
+      - 'Driver Unpaid Summary': end-users/driver-unpaid-summary.md
+      - 'Port Representatives Master Data Report': end-users/port-representatives-master-data-report.md
+      - 'Clients Master Data Report': end-users/clients-master-data-report.md
+      - 'Vendors Master Data Report': end-users/vendors-master-data-report.md
+      - 'All Locations Master Data': end-users/all-locations-master-data.md
+      - 'Routes Master Data': end-users/routes-master-data.md
+      - 'Routes Master Data Report': end-users/routes-master-data-report.md
+      - 'Shipment Details': end-users/shipment-details.md
+      - 'All Shipment Details': end-users/all-shipment-details.md
+      - 'Domestic Shipment Details': end-users/domestic-shipment-details.md
+      - 'All Domestic Shipment Details': end-users/all-domestic-shipment-details.md
+      - 'Subcontractor Shipment Details': end-users/subcontractor-shipment-details.md
+      - 'All Subcontractor Shipment Details': end-users/all-subcontractor-shipment-details.md
+      - 'Cross Border Shipment Details': end-users/cross-border-shipment-details.md
+      - 'All Cross Border Shipment Details': end-users/all-cross-border-shipment-details.md
+      - 'Driver Trip Allowances Master Data': end-users/driver-trip-allowances-master-data.md
+      - 'Driver Trip Allowances Master Data Report': end-users/driver-trip-allowances-master-data-report.md
   - Admin:
-      - admin/overview.md
+      - Overview: admin/overview.md

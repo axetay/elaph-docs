@@ -23,6 +23,53 @@ plugins:
 nav:
   - Home: index.md
   - End Users:
-      - end-users/dashboard.md
+      - 'Fleet Management Dashboard': end-users/fleet-management-dashboard.md
+      - 'Maintenance Order': end-users/maintenance-order.md
+      - 'All Maintenance Orders': end-users/all-maintenance-orders.md
+      - 'Repair Maintenance This Month': end-users/repair-maintenance-this-month.md
+      - 'All Spare Parts': end-users/all-spare-parts.md
+      - 'Purchase Orders': end-users/purchase-orders.md
+      - 'All Purchase Orders': end-users/all-purchase-orders.md
+      - 'Auto PO Items': end-users/auto-po-items.md
+      - 'All Auto PO Items': end-users/all-auto-po-items.md
+      - 'Fuel Control': end-users/fuel-control.md
+      - 'All Fuel Controls': end-users/all-fuel-controls.md
+      - 'Fuel – Vehicle Performance Summary': end-users/fuel-vehicle-performance-summary.md
+      - 'Worst Vehicles Report': end-users/worst-vehicles-report.md
+      - 'Cost Per KM': end-users/cost-per-km.md
+      - 'Driver KPI Evaluation': end-users/driver-kpi-evaluation.md
+      - 'All Driver Kpi Evaluations': end-users/all-driver-kpi-evaluations.md
+      - 'Vehicles': end-users/vehicles.md
+      - 'All Vehicles': end-users/all-vehicles.md
+      - 'Vehicles Summary Report': end-users/vehicles-summary-report.md
+      - 'All Drivers': end-users/all-drivers.md
+      - 'Spare Part Stock': end-users/spare-part-stock.md
+      - 'All Spare Part Stocks': end-users/all-spare-part-stocks.md
+      - 'Repair Details': end-users/repair-details.md
+      - 'All Repair Details': end-users/all-repair-details.md
+      - 'M1 Truck Report': end-users/m1-truck-report.md
+      - 'M1 Flat Bed Trailer Report': end-users/m1-flat-bed-trailer-report.md
+      - 'M1 Boxed Trailer Report': end-users/m1-boxed-trailer-report.md
+      - 'M1 Reefer Trailer Report': end-users/m1-reefer-trailer-report.md
+      - 'M2 Truck Report': end-users/m2-truck-report.md
+      - 'M2 Flat Bed Trailer Report': end-users/m2-flat-bed-trailer-report.md
+      - 'M2 Boxed Trailer Report': end-users/m2-boxed-trailer-report.md
+      - 'M2 Reefer Trailer Report': end-users/m2-reefer-trailer-report.md
+      - 'M3 Truck Report': end-users/m3-truck-report.md
+      - 'M3 Flat Bed Trailer Report': end-users/m3-flat-bed-trailer-report.md
+      - 'M3 Boxed Trailer Report': end-users/m3-boxed-trailer-report.md
+      - 'M3 Reefer Trailer Report': end-users/m3-reefer-trailer-report.md
+      - 'M4 Truck Report': end-users/m4-truck-report.md
+      - 'M4 Flat Bed Trailer Report': end-users/m4-flat-bed-trailer-report.md
+      - 'M4 Boxed Trailer Report': end-users/m4-boxed-trailer-report.md
+      - 'M4 Reefer Trailer Report': end-users/m4-reefer-trailer-report.md
+      - 'Spare Part Transactions': end-users/spare-part-transactions.md
+      - 'All Spare Part Transactions': end-users/all-spare-part-transactions.md
+      - 'Fuel Entries': end-users/fuel-entries.md
+      - 'All Fuel Entries': end-users/all-fuel-entries.md
+      - 'Request Spare Parts': end-users/request-spare-parts.md
+      - 'Request Spare Parts Report': end-users/request-spare-parts-report.md
+      - 'Automation Control': end-users/automation-control.md
+      - 'All Automation Controls': end-users/all-automation-controls.md
   - Admin:
-      - admin/overview.md
+      - Overview: admin/overview.md

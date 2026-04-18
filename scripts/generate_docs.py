@@ -29,6 +29,14 @@ def relative_screenshot_path(screenshot_abs: str, module: str) -> str:
         return path.name
 
 
+def is_empty_page(page: dict) -> bool:
+    return (
+        len(page.get("fields", [])) == 0
+        and len(page.get("table_columns", [])) == 0
+        and len(page.get("headings", [])) == 0
+    )
+
+
 def generate_page_doc(page: dict, module: str, section: str) -> str:
     """Generate Markdown content for a single app page."""
     lines = [f"# {page['name']}\n"]
@@ -38,6 +46,13 @@ def generate_page_doc(page: dict, module: str, section: str) -> str:
         lines.append(f"![{page['name']} screenshot]({rel})\n")
 
     lines.append(f"**URL:** `{page['url']}`\n")
+
+    if is_empty_page(page):
+        lines.append("> **Note:** This page had no records at the time of crawling.")
+        lines.append("> The layout and available actions will appear once data is added.\n")
+        lines.append("## Common Workflows\n")
+        lines.append("_Document step-by-step workflows for this page here._\n")
+        return "\n".join(lines)
 
     if page.get("headings"):
         lines.append("## Page Sections\n")
@@ -94,7 +109,8 @@ def generate_docs(manifest_path: str, module: str) -> None:
         content = generate_page_doc(page, module, section)
         out_path = docs_dir / section / f"{slug}.md"
         out_path.write_text(content)
-        print(f"  Written: {out_path}")
+        flag = " [EMPTY]" if is_empty_page(page) else ""
+        print(f"  Written: {out_path}{flag}")
 
         rel_path = f"{section}/{slug}.md"
         if is_admin:
