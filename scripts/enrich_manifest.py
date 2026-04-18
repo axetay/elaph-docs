@@ -77,6 +77,11 @@ Rules:
         messages=[{"role": "user", "content": prompt}],
     )
     text = resp.content[0].text.strip()
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+        text = text.strip()
     return json.loads(text)
 
 
